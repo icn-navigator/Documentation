@@ -1,6 +1,1 @@
-
-# ICN Navigator Documentation
-
-This repository is for all external product documentation.
-
-
+Internal planning and documentation for the ICN Navigator COMP30022 IT Project.
