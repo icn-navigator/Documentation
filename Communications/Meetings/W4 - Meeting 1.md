@@ -21,7 +21,6 @@ List goals for this meeting.
 - Confirm our process for breaking down the app into tasks and adding to the project planning backlog
 - Identify currently relevant features (For the first sprint)
 
-
 ## Discussion topics
 
 Add notes for each discussion topic.
