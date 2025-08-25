@@ -15,7 +15,7 @@ We need to decide on a frontend framework.
 
 > The platform should work on web browsers and mobile devices (iOS and Android) without building separate apps from scratch. A modern JavaScript framework such as Vue.js (possibly combined with tools like Ionic or Capacitor) or React (with React Native) is recommended for cross-platform compatibility.
 
-[[icn-requirements-doc.pdf#page=1&selection=89,1,120,23|icn-requirements-doc, page 1]]
+[[high-lvl-reqs.pdf#page=1&selection=89,1,120,23|icn-requirements-doc, page 1]]
 ## Options Considered
 
 ### React Native

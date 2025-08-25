@@ -12,6 +12,7 @@
 Lay the foundation for the ICN Navigator application by finalising requirements, establishing the project plan and architecture, and creating initial UI prototypes. Deliver a minimal viable version showcasing basic functional components for early feedback.
 
 Based on: [[capstone-project-timeline.pdf#page=1&selection=46,0,126,42|capstone-project-timeline, page 1]]
+See also: [[progress-checklist.pdf]]
 ## Capacity 
 
 |                         | **Current Sprint**                                                                 | **Previous Sprint** |
@@ -31,21 +32,21 @@ Based on: [[capstone-project-timeline.pdf#page=1&selection=46,0,126,42|capstone-
 
 * Write **functional / non-functional requirements** document (organise into epic, features, and user stories)
 * Write **project plan** and **timeline**
-* UI Prototyping
+* **UI Prototyping**
 	* Low Fidelity - wireframe 
 	* High Fidelity - Figma (will be broken up into sections / pages)
-* Diagram system design architecture 
+* Diagram **system design architecture** 
 ### Development
 
 * Develop **MVP showcase**
 	* Simple sign up and login (including backend integration)
 	* Onboarding
 	* Basic functional pages
-
+* Test **MVP Showcase**
+* Deploy **MVP Showcase**
 ## Task Breakdown and Estimates
 
 This was completed on GitHub Projects. 
-
 ## Questions
 
 Write any questions here. 

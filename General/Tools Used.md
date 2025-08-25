@@ -1,5 +1,5 @@
 
-This page collates all key links to external sites/resources. They are also linked in there relevant sections, but this provides an overview. 
+This page collates all key links to the resources we used. They are also linked in there relevant sections, but this provides an overview. 
 
 **Communication:** Discord Server - Contact Matthew Wang (matthewyw@student.unimelb.edu.au) for access. 
 

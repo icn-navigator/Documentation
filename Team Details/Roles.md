@@ -8,4 +8,7 @@ Our team roles are as follows:
 | Alex    | Team                       |
 | Zoy     | Team                       |
 
-Confirmed in [[W2 - Meeting 1]].
+
+
+
+Confirmed in [[W1 - Meeting 2]].
