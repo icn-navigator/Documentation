@@ -34,7 +34,7 @@ A **functional** requirements is *what the system must do*, including key observ
 
 A **non-functional** requirement is *how the system must perform*, including the quality of the system as a whole.
 
-| ID    | Requirement                                                                                                                                                | Notes / Inference                                                         |
+| ID    | Requirement                                                                                                                                                | Source                                                                    |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | #NFR1 | Modern, clean, and responsive UI design                                                                                                                    | [[high-lvl-reqs.pdf#page=2&selection=40,0,46,48\|high-lvl-reqs, page 2]]  |
 | #NFR2 | Lightweight and **maintainable** code with modular components                                                                                              | [[high-lvl-reqs.pdf#page=2&selection=78,0,92,70\|high-lvl-reqs, page 2]]  |

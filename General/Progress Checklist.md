@@ -7,24 +7,26 @@ Also see the [[progress-checklist-marking.pdf]] which provides a **marking key**
 ---
 ## COMP30022 Progress Checklist
 
-**Team:** Zamjo - Team 3 (Thursday 12:00 pm, with Harry Wang)
+**Team:** ZAMJO - Team 3 (Thursday 12:00 pm, with Harry Wang)
 **Reporting period:** W1 - W6
 ### Process
 
  Please give a link to where the information is visible for each item.
  
-**Adherence to agile ceremonies:** 
-**Team structure:** [[Roles]] - todo: provide more clarity on what each role does
-**Team internal communication:**  
+**Adherence to agile ceremonies:** See `Communication/Sprint Planning` and `Communication/Stand Ups`
+**Team structure:** [[Roles]]
+**Team internal communication:** Discord (see [[Tools Used]] for access)
 **Team decision making:** [[Decision Log]]
 **Communication with client:** 
  **Tools used:** [[Tools Used]]
+
+#TODO We need a way to link to certain folders, or else we need to create general summary pages for each of these which can then be linked to. 
 ### Artefacts
 
 Please give a link to where the information is visible for each item. 
 
 **Requirements:** [[Requirement Breakdown]]
-**Front-end Design:**
+**Front-end Design:** 
 **Architectural Design:**
 **Coding:**
 **Testing:**
