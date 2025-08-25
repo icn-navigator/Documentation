@@ -8,7 +8,7 @@
 
 ## Background
 
-We need a tool for task management to keep track of who is doing what and when. Aligns with the Agile methodology. 
+We need a tool for project management to keep track of who is doing what and when. Aligns with the Agile and Scrum methodology. 
 ## Relevant Data
 
 We want something simple and easy to use.

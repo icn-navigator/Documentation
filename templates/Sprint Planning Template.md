@@ -1,5 +1,1 @@
-
-## Sprint Planning Checklist
-
-
-
+#TODO
