@@ -9,8 +9,8 @@ Notes for adding decisions:
 | W1   | Project Management | GitHub Projects        | [[DR-1]] | #Complete   |
 | W1   | Documentation      | Markdown with Obsidian | [[DR-2]] | #Complete   |
 | W2   | Frontend framework | React Native           | [[DR-3]] | #Complete   |
-| W2   | Frontend language  | TypeScript             | [[DR-4]] |             |
-| W2   | Backend Runtime    | Bun                    |          |             |
+| W2   | Frontend language  | TypeScript             | [[DR-4]] | #InProgress |
+| W2   | Backend Runtime    | Bun                    |          | #Incomplete |
 | W4   | Deployment         | ??                     | [[DR-6]] | #Incomplete |
 |      |                    |                        |          |             |
 

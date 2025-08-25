@@ -1,11 +1,11 @@
 
-| **Status**    | #NotStarted / #InProgress / #Complete                              |
-| ------------- | ------------------------------------------------------------------ |
-| **Impact**    | #High / #Medium / #Low                                             |
-| **Drivers**   |                                                                    |
-| **Approvers** |                                                                    |
-| **Date**      | {{date:dddd, MMMM Do}}                                             |
-| **Links**     | Links to relevant research, pages, meetings, and related decisions |
+| **Status**     | #NotStarted / #InProgress / #Complete                              |
+| -------------- | ------------------------------------------------------------------ |
+| **Impact**     | #High / #Medium / #Low                                             |
+| **Driver/s**   |                                                                    |
+| **Approver/s** |                                                                    |
+| **Date**       | {{date:dddd, MMMM Do}}                                             |
+| **Links**      | Links to relevant research, pages, meetings, and related decisions |
 
 ## Background
 
