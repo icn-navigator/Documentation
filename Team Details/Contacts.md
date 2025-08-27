@@ -2,6 +2,7 @@
 
 * **Name:** Harry Wang
 * **Email:** guanqin.wang.1@unimelb.edu.au
+* **Alternative Contact:** He is now in our Discord Server
 * **Tutorial:** Thursday 12:00pm
 ## Clients
 
@@ -10,7 +11,7 @@
 * Roy
 ## Team Members:
 
-The formidable **Zanjo** team...
+The formidable **ZAMJO** team...
 
 | Name           | Student Number | Student Email                         | Discord        |
 | -------------- | -------------- | ------------------------------------- | -------------- |

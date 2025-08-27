@@ -9,7 +9,7 @@
 - [x] Oliver Starkey
 - [x] Julian Lewis
 - [x] Matthew Wang
-- [ ] Alex Zhang
+- [ ] Alex Zhang (had an assessment)
 - [x] Zoy Zhong
 
 ****

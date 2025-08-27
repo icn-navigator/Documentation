@@ -15,7 +15,7 @@ This document **focusses on the software product** - the *ICN Navigator App*. Ho
 
 ## Functional Requirements
 
-A **functional** requirements is *what the system must do*, including key observable behaviour, services and features.
+A **functional** requirement is *what the system must do*, including key observable behaviour, services and features.
 
 | ID   | Requirement                                                                                                    | Source                                                                                                                                                |
 | ---- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
