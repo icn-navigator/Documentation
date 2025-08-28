@@ -8,7 +8,7 @@
 ### Zoy
 
 **Focus**
-What did you focus on?
+* Research
 
 **What's done?**
 What did you get done?
@@ -17,40 +17,41 @@ What did you get done?
 What do you have planned to do next?
 
 **Blockers?**
-Do you have any blockers?
+*  
 
 ### Alex
 
 **Focus**
-What did you focus on?
+* High fidelity frontend prototype 
 
 **What's done?**
-What did you get done?
+* Desktop UI (specifically maps) 
 
 **What's next?**
-What do you have planned to do next?
+* Continue
 
 **Blockers?**
-Do you have any blockers?
+* None 
 
 ### Matthew
 
 **Focus**
-What did you focus on?
+* Figma UI design (high-fidelity)
 
 **What's done?**
-What did you get done?
+* Working on the map filtering UI
+* Decisions relating to broader map UI
 
 **What's next?**
-What do you have planned to do next?
+* Map Icons 
 
 **Blockers?**
-Do you have any blockers?
+* Struggled to come up with good icons for the different types of map UI 
 
 ### Julian
 
 **Focus**
-What did you focus on?
+* Compiling the Obsidian to the web  
 
 **What's done?**
 What did you get done?
@@ -91,7 +92,15 @@ Write any related action items here (if they're large they should be added to th
 
  - [ ] Deploy documentation
  - [ ] Team review of [[Requirement Breakdown]]
+	 - [ ] Break down into **User Stories**
  - [ ] Team review of [[high-level-sys-arch.pdf]]
+	 - [ ] Needs justification written
  - [ ] Team review of [[wireframe-app-setup.pdf]]
+	 - [ ] Needs justification written (why certain decisions)
+	 - [ ] Move to high-fidelity prototype
  - [ ] Backfill [[W3-sprint-planning.pdf]] document (@Julian)
+ - [ ] Backfill [[Decision Log]] (some for @Julian, some for @Matthew)
+ - [ ] Code setup (proper README, basic framework setup)
+ - [ ] Make sure git contribution guidelines is complete
+ - [ ] Testing and deployment documentation
 
