@@ -7,28 +7,31 @@
 
 ### Zoy
 
+Please note that Zoy had an exam the week this stand-up corresponds to, so that limited her work output on this project. 
+
 **Focus**
 * Research
 
 **What's done?**
-What did you get done?
+* Research? 
 
 **What's next?**
-What do you have planned to do next?
+* Seek team member help for what to do next 
 
 **Blockers?**
-*  
+*  Some uncertainty on what to work on that will best help the team
 
 ### Alex
 
 **Focus**
-* High fidelity frontend prototype 
+* Front-end prototype 
 
 **What's done?**
 * Desktop UI (specifically maps) 
 
 **What's next?**
 * Continue
+* Help in areas the team needs help
 
 **Blockers?**
 * None 
@@ -43,7 +46,7 @@ What do you have planned to do next?
 * Decisions relating to broader map UI
 
 **What's next?**
-* Map Icons 
+* Work on getting frontend codebase setup 
 
 **Blockers?**
 * Struggled to come up with good icons for the different types of map UI 
@@ -51,17 +54,25 @@ What do you have planned to do next?
 ### Julian
 
 **Focus**
-* Compiling the Obsidian to the web  
+* Documentation deployment
+* Backend design
 
 **What's done?**
-What did you get done?
+* Compiling the Obsidian to the web
+	* Tested with Jekyll 
+	* Landed on [Quartz 4](https://quartz.jzhao.xyz/) as it's more Obsidian-specific
+	* Got this working locally (identified need for `index` file)
+* Researched backend design 
 
 **What's next?**
-What do you have planned to do next?
+* Finish Quartz setup
+	* Set up [GitHub Actions](https://github.com/features/actions?utm_source=chatgpt.com) workflow to run on `push` events to the documentation branch and deploy updated site automatically
+* Research backend
+	* May work on getting AWS services set up 	
+	* Document some backend choices
 
 **Blockers?**
-Do you have any blockers?
-
+* None 
 ### Oliver
 
 **Focus**
@@ -69,31 +80,30 @@ Do you have any blockers?
 
 **What's done?**
 * Wrote a draft of the [[Requirement Breakdown]]
-* Draft of [[high-level-sys-arch.pdf]]
+* Draft of [[high-lvl-system-arch.pdf]]
 * Draft of [[wireframe-app-setup.pdf]]
 * General obsidian tidy-up (added more draft decision records)
 
 **What's next?**
 * Organise team review of the Requirement Breakdown (possibly clients too?) 
 * Team review for the high-level-sys-architecture (especially with @Julian for backend technologies)
-* Review wireframe with team -> work on getting to a finalsed mockup/prototype stage ready for coding
-* Continue making sure the team is on track for the progress checklist
+* Review wireframe with team -> work on getting to a finalised mockup/prototype stage ready for coding
+* Continue to make sure the team is on track for the progress checklist
 
 **Blockers?**
 * Still a bit sure on the best way to go about contacting the clients
 * Don't wan't to go to far ahead on some of these things with out team/client feedback
-* Not really a blocker, but would love to see more people using the Obsidian vault.
+* Not really a blocker, but would love to see more people using the Obsidian vault!
 ## Questions
 
 * What is the best way to contact the clients? (Where is the Google Doc?) 
+	* ANS: It's been setup but not shared with us yet (waiting client confirmation)
 ## Action Items
-
-Write any related action items here (if they're large they should be added to the GitHub)
 
  - [ ] Deploy documentation
  - [ ] Team review of [[Requirement Breakdown]]
 	 - [ ] Break down into **User Stories**
- - [ ] Team review of [[high-level-sys-arch.pdf]]
+ - [ ] Team review of [[high-lvl-system-arch.pdf]]
 	 - [ ] Needs justification written
  - [ ] Team review of [[wireframe-app-setup.pdf]]
 	 - [ ] Needs justification written (why certain decisions)
