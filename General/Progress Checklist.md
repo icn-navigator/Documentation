@@ -26,8 +26,8 @@ Also see the [[progress-checklist-marking.pdf]] which provides a **marking key**
 Please give a link to where the information is visible for each item. 
 
 **Requirements:** [[Requirement Breakdown]]
-**Front-end Design:** 
-**Architectural Design:**
+**Frontend Design:** 
+**Architectural Design:** [[Architectural Design]]
 **Coding:**
 **Testing:**
 **Deployment:**

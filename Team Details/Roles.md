@@ -2,7 +2,7 @@ Our team roles are as follows:
 
 | Name    | Role                                    |
 | ------- | --------------------------------------- |
-| Oliver  | Product Owner, Developer, Team Member   |
+| Oliver  | Product Owner, Team Member              |
 | Julian  | Scrum Master, Backend Lead, Team Member |
 | Matthew | Frontend Lead, Team Member              |
 | Alex    | Team Member                             |
