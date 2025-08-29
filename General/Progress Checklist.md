@@ -1,4 +1,4 @@
-**NOTE:** This is version [[progress-checklist.pdf]] adapted for markdown for ease of updates. However, the final version should be submitted as a PDF using that template. Also, this version uses internal links. **Before submission** this should be updated to external links (In most cases, hopefully to these notes but on a website!). 
+**NOTE:** This is a markdown version of [[progress-checklist.pdf]]. Final version should be submitted as a PDF!
 
 **DUE:** Sunday, September 7th by 23:59 on [Canvas](https://canvas.lms.unimelb.edu.au/courses/211713/assignments/580073).
 
