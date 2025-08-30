@@ -1,28 +1,69 @@
 
-| **Status**    | #InProgress                                                        |
-| ------------- | ------------------------------------------------------------------ |
-| **Impact**    | #High                                                              |
-| **Drivers**   | @Matthew Wang                                                      |
-| **Approvers** |                                                                    |
-| **Date**      | Thursday, August 27th                                              |
-| **Links**     | Links to relevant research, pages, meetings, and related decisions |
+| **Status**     | #InProgress                                                        |
+| -------------- | ------------------------------------------------------------------ |
+| **Impact**     | #High                                                              |
+| **Driver/s**   | Julian Lewis                                                       |
+| **Approver/s** |                                                                    |
+| **Date**       | 30/08/2025                                                         |
+| **Links**      | Links to relevant research, pages, meetings, and related decisions |
 
 ## Background
 
-We need to discuss a Map API to use
+Our choice for backend language was shaped by three key requirements: familiarity, popularity, and performance.
+
+Choosing a language the team is more familiar with (or has a shallow learning curve):
+- Minimises time spent learning syntax and language features
+- Permits better programming practice through established language knowledge
+
+Choosing a language that is popular for the application is important to:
+- Maximise the number of available resources for developing robust and proven software
+- Increase the amount of tooling and developer libraries available
+	- Reduces time spent "re-inventing the wheel"
+
+Choosing an inherently performant language for the application is important for later stages of development when testing user experience, where higher level or domain-unoptimised languages may introduce delays that reduce software quality and UX.
 
 ## Relevant Data
 
-- I (Matthew) have used MapBox API in the past before for work. However we still need to confirm to use as commercial usage may require a subscription. Depending how much traffic it receives.
+Add any data or feedback the team should consider when making this decision.
 ## Options Considered
 
-- Leaflet - Does not provide its own map tiles, but very light weight and has a low learning curve.
-- Mapbox - commercial usage requires subscription, allows for more feature rich features. Good for large scale data but slightly higher learning curve.
+### Typescript + Node
+
+**Positives:**
+- Very widely used for writing API servers
+- Simple language
+- Moderate (compile-time) type safety
+**Negatives:**
+- Potentially un-intuitive runtime (using express for HTTP server)
+- Half of team would have to learn Javascript/Typescript
+
+### Rust + Axum
+
+**Positives:**
+- Extremely fast
+- Completely enforced type (and memory) safety
+- Minimal memory footprint, can be deployed anywhere
+**Negatives:**
+- Not as well supported as Node or Bun
+- Most of team isn't familiar with Rust (which has quite a high learning curve)
+- Lower level than Typescript, sacrifice development time for performance and safety
+
+### Typescript + Bun
+
+**Positives:**
+- Very performant
+- Rapidly growing support
+- Cross-compatibility with Node
+- Very simple runtime, servers are built with high-level ready-made library interfaces
+**Negatives:**
+- Half of team would have to learn Javascript/Typescript
+
 ## Action items
 
-- [ ] Seek further feedback from all developers involved in frontend code (likely the whole team) to see what they are the most comfortable with
+Add action items to close the loop on open questions or concerns.
 
 --- 
 ## Outcome
 
-Mapbox
+We have decided to use the **Bun** runtime with **Typescript**.
+
