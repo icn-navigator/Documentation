@@ -5,7 +5,7 @@
 **Start Date:** Monday, 18th August (W3)
 **End Date:** Monday, 7th September (W6)
 **Duration:** 20 days
-**Team:** See [[Roles]]
+**Team:** See [[Roles and Responsibilities]]
 
 ## Sprint Goal
 

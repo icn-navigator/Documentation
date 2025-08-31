@@ -40,12 +40,14 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 - [ ] (Optional) Edit the [[W5 - Stand Up]] notes to better reflect your activities.
 
 [^6]: Technically, this sprint does end soon, so we will need to do a **retrospective** - hopefully this week is productive so we have things to talk about!
+
+## Process
 ### Role Assignments
  [[W5-sprint-end.pdf#page=9&selection=0,0,12,42|W5-sprint-end, page 9]]
 
 **Effectively done.** Roles were assigned a while ago, just make sure your communication and tasks reflect your role (this is something that's graded)
 
-- [w] [[Roles]] is already assigned and responsibilities described.
+- [x] [[Roles and Responsibilities]] is already assigned and responsibilities described.
 - [ ] A good **Discord** communication history with behaviour reflective of roles
 - [ ] **GitHub projects** kanban board/tasks regularly used
 
@@ -59,7 +61,7 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 	- [ ] Look at [[high-lvl-system-arch.pdf]] - justify choices[^1]
 		- [ ] Amazon EC2
 		- [ ] Postgres DB
-		- [w] Map box
+		- [x] Map box
 - [ ] Justify UI decisions (some ideas below...)
 	- [ ] Inspiration artefacts
 	- [ ] Simple page describing our overall methodology[^7]
@@ -73,7 +75,7 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 
 **Doing OK.** If time, we could make the meeting notes more detailed but not a priority.
 
-- [w] Meetings notes
+- [x] Meetings notes
 	- [ ] Link more decision records (makes meeting outcomes clear)
 	- [ ] Add more action items (can be backfilled)
 - [ ] Have at least one more meeting (or async meeting)
@@ -104,9 +106,9 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 **First stage done.**  Just needs to be broken down further into **User Stories**.
 
 - [ ] [[Requirement Breakdown]][^2]
-	- [w] Functional
-	- [w] Non-Functional
-	- [w] Out-of-scope
+	- [x] Functional
+	- [x] Non-Functional
+	- [x] Out-of-scope
 	- [ ] Review by all team members
 	- [ ] (Maybe) change [[W3-sprint-planning.pdf]] to better match this.
 - [ ] **Large task:** Break down into **user stories*
@@ -142,10 +144,10 @@ Going well. However, frontend design is a large task and a major deliverable.
 
 - [ ] Make a (team) decision on whether we will use a UI Component Library[^4]
 - [ ] Low-fidelity prototype of setup 
-	- [w] Mobile - (needs review: [[wireframe-app-setup.pdf]]) 
+	- [x] Mobile - (needs review: [[wireframe-app-setup.pdf]]) 
 	- [ ] Web - (not a priority, focus on mobile first)
 - [ ] High-fidelity prototype of app setup (Figma)
-	- [ ] Mobile
+	- [x] Mobile
 	- [ ] Web
 - [ ] UI-Documentation (might just be one long page, psst... ChatGPT can help waffle)
 	- [ ] Description of methodology (e.g. are we "simple, but effective UI")
@@ -172,7 +174,7 @@ Going well. However, frontend design is a large task and a major deliverable.
 	- [ ] System sequence diagrams (maybe not necessary)
 - [ ] Process View
 	- [ ] Package diagram
-	- [w] System diagram (done: [[high-lvl-system-arch.pdf]])
+	- [x] System diagram (done: [[high-lvl-system-arch.pdf]])
 - [ ] Physical View
 	- [ ] Deployment pipeline
 
@@ -192,7 +194,7 @@ Going well. However, frontend design is a large task and a major deliverable.
 	- [ ] Build & deployment instructions
 	- [ ] Include links to relevant docs (e.g. contribution guidelines)
 - [ ] Dev guidelines
-	- [w] Contribution guidelines (done: [[Git Contribution Guidelines]]) 
+	- [x] Contribution guidelines (done: [[Git Contribution Guidelines]]) 
 	- [ ] Code style enforcement (Prettier / ESLinter setup / guidelines - documentation needed too)
 - [ ] Start coding (**NOT a priority**)
 	- [ ] Backend setup

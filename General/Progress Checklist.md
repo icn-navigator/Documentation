@@ -14,7 +14,7 @@ Also see the [[progress-checklist-marking.pdf]] which provides a **marking key**
  Please give a link to where the information is visible for each item.
  
 **Adherence to agile ceremonies:** See `Communication/Sprint Planning` and `Communication/Stand Ups`
-**Team structure:** [[Roles]]
+**Team structure:** [[Roles and Responsibilities]]
 **Team internal communication:** Discord (see [[Tools Used]] for access)
 **Team decision making:** [[Decision Log]]
 **Communication with client:** 
