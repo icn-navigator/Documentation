@@ -1,7 +1,7 @@
 
-| **Status**     | #InProgress            |
+| **Status**     | #Complete              |
 | -------------- | ---------------------- |
-| **Impact**     | #High / #Medium / #Low |
+| **Impact**     | #High                  |
 | **Driver/s**   | @Julian @Oliver        |
 | **Approver/s** |                        |
 | **Date**       | Wednesday, August 27th |
