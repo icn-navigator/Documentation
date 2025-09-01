@@ -1,7 +1,7 @@
 
-| **Status**     | #Completed                                                         |
+| **Status**     | #Complete                                                          |
 | -------------- | ------------------------------------------------------------------ |
-| **Impact**     | #High / #Medium / #Low                                             |
+| **Impact**     | #High                                                              |
 | **Driver/s**   | @Matthew Wang                                                      |
 | **Approver/s** | @Everyone                                                          |
 | **Date**       | Monday, August 25th                                                |

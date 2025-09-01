@@ -11,9 +11,9 @@ Notes for adding decisions:
 | W2   | Frontend framework       | React Native           | [[DR03 - Frontend Framework]] | #Complete   |
 | W2   | Frontend language        | TypeScript             | [[DR04 - Frontend Language]]  | #Complete   |
 | W2   | Backend Language/Runtime | Bun runtime with TS    | [[DR05 - Backend Language]]   | #Complete   |
-| W4   | Deployment               | ?                      | [[DR06 - Deployment]]         | #NotStarted |
+| W4   | Deployment               | ?                      | [[DR06 - Deployment]]         | #InProgress |
 | W5   | Map Framework            | MapBox                 | [[DR07 - Map Framework]]      | #InProgress |
-| W5   | Database                 | PostgreSQL             | [[DR08 - Database]]           | #NotStarted |
+| W5   | Database                 | PostgreSQL             | [[DR08 - Database]]           | #Complete   |
 | W5   | UI Library               | ?                      | [[DR09 - UI Library]]         | #NotStarted |
 |      |                          |                        |                               |             |
 

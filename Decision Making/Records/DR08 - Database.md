@@ -1,7 +1,7 @@
 
-| **Status**     | #InProgress            |
+| **Status**     | #Complete              |
 | -------------- | ---------------------- |
-| **Impact**     | #High / #Medium / #Low |
+| **Impact**     | #High                  |
 | **Driver/s**   | @Julian @Oliver        |
 | **Approver/s** |                        |
 | **Date**       | Wednesday, August 27th |
@@ -9,18 +9,38 @@
 
 ## Background
 
-Provide context on a decision the team needs to make and include information about constraints and challenges.
-## Relevant Data
+ICN Navigator requires an internal database (separate to the *ICN Directory Data*) for several aspects of the platform:
+- Data protection through user authentication
+- Monetization through subscription-based access (ties into previous point)
+- Storing user preferences
 
-Add any data or feedback the team should consider when making this decision.
 ## Options Considered
 
-Discuss alternate options and their positives and negatives.
-## Action items
+### MySQL
+**Positives:**
+- Most members of the team have worked with MySQL before
+- Simple hosting and deployment options available
+**Negatives:**
+- Becoming a legacy system, used less in modern applications (compared to PostgreSQL)
+	- Potentially less up-to-date resources
+- Doesn't have the same first-class support in Bun ([[DR05 - Backend Language]]) as PostgreSQL
 
-Add action items to close the loop on open questions or concerns.
+
+### PostgreSQL
+**Positives:**
+- Modern, widely supported option
+- Very performant
+- First-class support in Bun 
+	- See here: <https://bun.com/docs/api/sql>
+**Negatives:**
+- Team isn't as familiar with specifics of PostgreSQL syntax
+	- *However*, many of the important differences are only apparent with more advanced use cases, which are likely to not occur in the account management of ICN Navigator
+
+
+## Action items
 
 --- 
 ## Outcome
 
-Summarise the outcome. 
+Overall, we decided PostgreSQL was the best option for our application.
+
