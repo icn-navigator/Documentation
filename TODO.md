@@ -34,10 +34,10 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 - [ ] Backlog (a work in progress) 
 	- [ ] Estimates / priority assignment for current sprint
 - [ ] Ceremonies
-	- [ ] Sprint Planning (in-progress: [[W3-sprint-planning.pdf]])
+	- [ ] Sprint Planning (in-progress: [[W3-sprint-planning.pdf]]) @Julian
 	- [ ] Retrospective[^6] 
 	- [ ] Review
-- [ ] (Optional) Edit the [[W5 - Stand Up]] notes to better reflect your activities.
+- [ ] (Optional) Edit the [[W5 - Stand Up]] notes to better reflect your activities. @Everyone
 
 [^6]: Technically, this sprint does end soon, so we will need to do a **retrospective** - hopefully this week is productive so we have things to talk about!
 
