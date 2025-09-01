@@ -14,12 +14,19 @@ This prototype "Setup" phase of the app. This includes:
 * *(Basically everything before the user enters the main app)*
 
 ![[wireframe-app-setup.png]]
-Annotated wireframe diagram of app-setup (see: [[wireframe-app-setup.pdf]])
+**Annotated wireframe diagram of app-setup** (see: [[wireframe-app-setup.pdf]])
 
 While the wireframe annotations capture most details, the following considerations guided our design: 
 
 * **Clear entry point** - users have the flexibility to either create a new account or sign in with an existing one (potentially with alternative sign-in options, although we acknowledge that SSO auth may be costly development-wise)
-* **Progressive authentication** - email, verification and password creation are all broken down into steps
-* **Onboarding** - In line with we aim introduce a short questionnaire to personalise the experience, so the app
+* **Progressive authentication** - email, verification and password creation are all broken down into steps to reduce cognitive load on the user. 
+* **Onboarding** - Provides more context on what the app may include a short questionnaire to personalise the experience, so the app is relevant from first use.
+* **Premium trial** - shown at the end of onboarding, this introduces the value proposition early without blocking free use. (we're also considering making this a pop-up whenever the user tries to access premium features)
 
+Together, these choices aim to make account creation smooth, guide users into the right category, and set expectations before entering the main app.
 
+## Main App Pages
+
+This section provides a high-level overview of the **main app interface**, focusing on its overall layout and the core pages that make it up.
+
+#TODO
