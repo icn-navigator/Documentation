@@ -15,10 +15,14 @@ Importantly, the choice for hosting must meet the client criteria of:
 - Simplicity (no overly complex and platform-specific infrastructure requirements)
 As well as the implicit goal of extensibility and scalability.
 
-
 ## Relevant Data
 
-Add any data or feedback the team should consider when making this decision.
+To support this decision, here are some definitions/reminders for key terms:
+
+* **CI/CD (Continuous Integration / Continuous Deployment):** A set of practices and tools that automatically test, build, and deploy code whenever changes are made. This reduces manual effort, catches errors earlier, and ensures new features can be delivered quickly and reliably.
+* **VPS (Virtual Private Server):**  A VM provided by a cloud provider (e.g., AWS EC2) that acts like a dedicated server. It gives more flexibility and control than shared hosting, allowing us to install and configure the exact software stack we need. (See also: [AWS - What is VPS?](https://aws.amazon.com/what-is/vps/))
+* **TLS (Transport Layer Security):**  (recall from Computer Systems!) - A protocol that runs on top of TCP to provide confidentiality and integrity for communication between a client and a server. 
+
 ## Options Considered
 
 ### Vercel (More generally: all-in-one hosting platforms)
