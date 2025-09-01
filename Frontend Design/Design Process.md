@@ -22,12 +22,27 @@ This is opposed to designing the UI and user-flows of the **full app** in one go
 
 ### Typical loop
 
-* **Discover and research** - Clarify the user story, constraints, and success criteria. Research for inspiration (unless design ethos is already well established)
-* **(Optional) User Flow diagram** - For complex interactions a [user flow diagram](https://www.figma.com/resource-library/user-flow/)
+* **Discovery and research** - Clarify the user story, constraints, and success criteria. Research for inspiration (unless design ethos is already well established)
+* **(Optional) User flow diagram** - For complex interactions a [user flow diagram](https://www.figma.com/resource-library/user-flow/)
 * **Low-fidelity prototype/s** - A simplified sketch / design (basic layout etc.) aka wireframe
 * **High-fidelity prototype/s** - A detailed, ready-to-implement design (possibly intractable) likely in [Figma](https://www.figma.com/). 
 
+```mermaid
+
+flowchart TB 
+	D[Discovery & Research]
+	U[User Flow Diagram]
+	L[Low-fidelity prototype]
+	H[High-fidelity prototype]
+	F[Client feedback & Testing]
+	I[Implementation]
+	
+	D --> U --> L --> H --> F
+	F -->|Refinement|D	
+	F -->|Approved|I
+```
+
 ### Other guidelines
 
-* **User a design system** - shared components, and patterns in Figma (and code) for consistency and efficiency.
-* **Decision log** - We record client preferences and rationale to avoid back-and-forth on settled choices. 
+* **Use a design system** - shared components, and patterns in Figma (and code) for consistency and efficiency.
+* **Decision log** - We record client preferences and rationale to avoid back-and-forth on settled choices - using the [[Decision Log]]!
