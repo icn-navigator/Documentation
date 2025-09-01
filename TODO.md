@@ -151,8 +151,8 @@ Going well. However, frontend design is a large task and a major deliverable.
 	- [ ] Web
 - [ ] UI-Documentation (might just be one long page, psst... ChatGPT can help waffle)
 	- [ ] Description of methodology (e.g. are we "simple, but effective UI")
-	- [ ] Inspiration (e.g. Imprint, HappyCow, etc.)
-	- [ ] Theme/colour palette (cite the [[brand-guidelines.pdf]])
+	- [x] Inspiration (e.g. Imprint, HappyCow, etc.)
+	- [x] Theme/colour palette (cite the [[brand-guidelines.pdf]])
 	- [ ] Justification / thought process behind decisions 
 - [ ] Low-fidelity prototype of other parts of the app - **NOT a priority for this week**.
 	- [ ] Map
@@ -166,6 +166,8 @@ Going well. However, frontend design is a large task and a major deliverable.
 **LOTS of work to do here.** The [[L4-design.pdf]] lecture outlined the 4+1 architecture approach, which Harry also recommended. The exemplar followed this structure, with a page for each "view" containing the relevant artefacts and justifications (see: [[table-of-contents-exemplar.pdf]]). The list below is not exhaustive - there may be other diagrams worth including - but aim for at least one artefact per view.
 
 - [ ] Architecture goals and constraints (see: [[L4-design.pdf#page=13&selection=0,0,0,32|L4-design, page 13]])
+- [x] System diagram (done: [[high-lvl-system-arch.pdf]])
+	- [ ] **NOTE:** We need to find out what 'view' this artefacts belongs in.
 - [ ] Logical view
 	- [ ] Domain / Class Diagram (maybe not necessary for us?)
 	- [ ] Database diagram (**definitely**, at least a draft)
@@ -174,7 +176,6 @@ Going well. However, frontend design is a large task and a major deliverable.
 	- [ ] System sequence diagrams (maybe not necessary)
 - [ ] Process View
 	- [ ] Package diagram
-	- [x] System diagram (done: [[high-lvl-system-arch.pdf]])
 - [ ] Physical View
 	- [ ] Deployment pipeline
 

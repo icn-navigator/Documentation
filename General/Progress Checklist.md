@@ -27,7 +27,7 @@ Please give a link to where the information is visible for each item.
 
 **Requirements:** [[Requirement Breakdown]]
 **Frontend Design:** 
-**Architectural Design:** [[Architectural Design]]
+**Architectural Design:** [[Goals and Constraints]]
 **Coding:**
 **Testing:**
 **Deployment:**
