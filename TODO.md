@@ -31,13 +31,12 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 
 **Doing OK.**  Making sure this is up-to-scratch is everyones responsibility, although overall management is left to @Julian as the Scrum Master.
 
-- [ ] Backlog (a work in progress) 
-	- [ ] Estimates / priority assignment for current sprint
-- [ ] Ceremonies
-	- [ ] Sprint Planning (in-progress: [[W3-sprint-planning.pdf]]) @Julian
-	- [ ] Retrospective[^6] 
-	- [ ] Review
-- [ ] (Optional) Edit the [[W5 - Stand Up]] notes to better reflect your activities. @Everyone
+- [ ] Backlog (a work in progress) #Oliver #Julian #Everyone
+	- [ ] Estimates / priority assignment for current sprint #Everyone
+- [ ] Ceremonies #Julian #Oliver
+	- [ ] Sprint Planning (in-progress: [[W3-sprint-planning.pdf]]) #Julian
+	- [ ] Retrospective[^6] (maybe figure out a template!) #Julian
+- [ ] (Optional) Edit the [[W5 - Stand Up]] notes to better reflect your activities. #Everyone
 
 [^6]: Technically, this sprint does end soon, so we will need to do a **retrospective** - hopefully this week is productive so we have things to talk about!
 
@@ -48,25 +47,19 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 **Effectively done.** Roles were assigned a while ago, just make sure your communication and tasks reflect your role (this is something that's graded)
 
 - [x] [[Roles and Responsibilities]] is already assigned and responsibilities described.
-- [ ] A good **Discord** communication history with behaviour reflective of roles
-- [ ] **GitHub projects** kanban board/tasks regularly used
 
 ### Group Decision Making
 [[W5-sprint-end.pdf#page=10&selection=0,0,30,13|W5-sprint-end, page 10]]
 
 **Doing OK.** Our [[Decision Log]] is a good concept, but needs more items.
 
-- [ ] Fill in incomplete [[Decision Log]] decision records
-- [ ] Add more Decision Records
+- [ ] Fill in incomplete [[Decision Log]] decision records #Everyone #Zoy (for [[DR09 - UI Library]])
+- [ ] Add more Decision Records #Everyone
 	- [ ] Look at [[high-lvl-system-arch.pdf]] - justify choices[^1]
-		- [ ] Amazon EC2
-		- [ ] Postgres DB
-		- [x] Map box
-- [ ] Justify UI decisions (some ideas below...)
-	- [ ] Inspiration artefacts
-	- [ ] Simple page describing our overall methodology[^7]
-	- [ ] A comments / notes in Figma
-- [ ] Add [[Change Log]] for any decisions that have changed
+		- [ ] Amazon EC2 #Julian
+		- [x] Postgres DB #Julian
+		- [x] Map box #Matthew
+- [ ] Add [[Change Log]] for any decisions that have changed #Oliver
 
 [^1]: For areas with many interrelated decisions (e.g. backend architecture), a tailored note may be clearer than separate decision records. A single document can explain how the choices collectively support scalability, maintainability, and future extensibility, with alternatives mentioned more briefly. Link this instead of a decision record in the decision log.
 
@@ -75,28 +68,29 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 
 **Doing OK.** If time, we could make the meeting notes more detailed but not a priority.
 
-- [x] Meetings notes
-	- [ ] Link more decision records (makes meeting outcomes clear)
-	- [ ] Add more action items (can be backfilled)
-- [ ] Have at least one more meeting (or async meeting)
+- [ ] Meetings notes #Everyone
+	- [ ] Link more decision records (makes meeting outcomes clear) #Oliver
+	- [ ] Add more action items (can be backfilled) #Everyone
+- [x] Have at least one more meeting (or async meeting) 
+	- [ ] Finish [[W6 - Meeting 1]] notes #Oliver #Julian
 
 ### Communication
 [[W5-sprint-end.pdf#page=12&selection=2,0,32,17|W5-sprint-end, page 12]]
 
 **Probably, "Below Expectations".**  Especially our **Discord** chat history. However, if we do the other sections well, this should improve organically.
 
-**Internal communication:** Please actively engage!
+**Internal communication:** Please actively engage! #Everyone
 * Post what you're working on
 * Ask questions
 * Give others feedback
 * Send at least one message a day
 
-**External communication:** Client is making this tricky, but there are still things to do.
-- [ ] Set up documentation for client interactions
+**External communication:** Client is making this tricky, but there are still things to do. 
+- [ ] Set up documentation for client interactions #Oliver
 	- [ ] Section noting client communication struggles 
 	- [ ] General questions for client
 	- [ ] Link things awaiting client review / feedback
-- [ ] Prepare plan for presenting to client next tutorial (W6 Thursday)
+- [ ] Prepare plan for presenting to client next tutorial (W6 Thursday) #Everyone
 
 ## Artefacts
 
@@ -109,16 +103,17 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 	- [x] Functional
 	- [x] Non-Functional
 	- [x] Out-of-scope
-	- [ ] Review by all team members
-	- [ ] (Maybe) change [[W3-sprint-planning.pdf]] to better match this.
-- [ ] **Large task:** Break down into **user stories*
+	- [ ] Review by all team members #Everyone
+	- [ ] (Maybe) change [[W3-sprint-planning.pdf]] to better match this. #Julian
+- [ ] **IMPORTANT** Break down into **user stories** #Zoy #Everyone
+	- [ ] Also see: [[Requirement Breakdown]]
 	- [ ] Start with those specific to the current / next sprint (e.g. login / onboarding)
 	- [ ] Remaining user stories
-- [ ] Add to **GitHub projects**[^3]
+- [ ] Refined and add to **GitHub projects**[^3] #Oliver #Julian #Everyone
 	- [ ] Add user stories to epics/requirements/tasks (maybe in `description` section)
 	- [ ] Priority assignment
 	- [ ] Story point estimation
-- [ ] Find a way to document (major) **requirement changes** (shouldn't rely on commit history for this)
+- [ ] Find a way to document (major) **requirement changes** (shouldn't rely on commit history for this) #Oliver
 
 **NOTE:** Writing requirements is an **incremental** process - we'll likely identify more throughout the project and have to add more user stories progressively.
 
@@ -142,14 +137,15 @@ Going well. However, frontend design is a large task and a major deliverable.
 >   
 >  It would be more valuable to design a smaller section *fully*, rather than the whole app *partially*. With a fully complete design, frontend coding can confidently start. In general, an alternating design-code, design-code, etc. will be our main workflow.
 
-- [ ] Make a (team) decision on whether we will use a UI Component Library[^4]
-- [ ] Low-fidelity prototype of setup 
-	- [x] Mobile - (needs review: [[wireframe-app-setup.pdf]]) 
+- [x] Make a (team) decision on whether we will use a UI Component Library[^4]
+- [x] Low-fidelity prototype of setup 
+	- [x] Mobile - (needs review: [[wireframe-app-setup.pdf]]) #Oliver
 	- [ ] Web - (not a priority, focus on mobile first)
 - [ ] High-fidelity prototype of app setup (Figma)
 	- [x] Mobile
+		- [ ] Documentation / Justification #Alex #Zoy #Matthew (started for you by #Oliver)
 	- [ ] Web
-- [ ] UI-Documentation (might just be one long page, psst... ChatGPT can help waffle)
+- [ ] UI-Documentation (might just be one long page) #Everyone
 	- [ ] Description of methodology (e.g. are we "simple, but effective UI")
 	- [x] Inspiration (e.g. Imprint, HappyCow, etc.)
 	- [x] Theme/colour palette (cite the [[brand-guidelines.pdf]])
@@ -170,54 +166,55 @@ Going well. However, frontend design is a large task and a major deliverable.
 	- [ ] **NOTE:** We need to find out what 'view' this artefacts belongs in.
 - [ ] Logical view
 	- [ ] Domain / Class Diagram (maybe not necessary for us?)
-	- [ ] Database diagram (**definitely**, at least a draft)
+	- [ ] Database diagram (**definitely**, at least a draft) #Julian
 - [ ] Development View (dynamic aspects of the system)
-	- [ ] Maybe a web-flow routing for user sign-in/setup
+	- [ ] Maybe a web-flow routing for user sign-in/setup #Oliver
 	- [ ] System sequence diagrams (maybe not necessary)
 - [ ] Process View
-	- [ ] Package diagram
+	- [ ] Package diagram (maybe) #Oliver
 - [ ] Physical View
-	- [ ] Deployment pipeline
-
-**Software:** preferred software for diagrams is [Lucid Chart](https://www.lucidchart.com/pages) and export to pdf. For simple diagrams, consider [Mermaid](https://mermaid.js.org/#/) which is renders natively in Obsidian.
+	- [ ] Deployment pipeline (diagram + documentation) #Julian
 
 >[!warning]- Just completing a diagram is not sufficient
 >Diagrams should have written notes linked with them that justify the decisions within them - perhaps link with a **decision record** / **requirement**. Justifications should include references to **scalability**, **extendability**, **maintainability**.
+
+**Software:** preferred software for diagrams is [Lucid Chart](https://www.lucidchart.com/pages) and export to pdf. For simple diagrams, consider [Mermaid](https://mermaid.js.org/#/) which is renders natively in Obsidian.
 
 ### Codebase
 [[W5-sprint-end.pdf#page=17&selection=0,0,55,10|W5-sprint-end, page 17]]
 
 **Setup required.** As Harry noted, code is not the focus of this sprint and an MVP is not expected. The key client deliverable is the UI prototypes. Our priority should be to set up and organise the codebase so it’s ready for the next sprint. At most, this might include basic frontend/backend scaffolding, but this is **not a priority** compared to the other tasks listed.
 
-- [ ] README 
+- [ ] README #Matthew (for Frontend), #Julian (for Backend) #Oliver (to help)
 	- [ ] Project title / description
 	- [ ] Installation / setup instructions (if code scaffold is setup)
 	- [ ] Build & deployment instructions
 	- [ ] Include links to relevant docs (e.g. contribution guidelines)
-- [ ] Dev guidelines
+- [ ] Dev guidelines #Julian #Oliver
 	- [x] Contribution guidelines (done: [[Git Contribution Guidelines]]) 
 	- [ ] Code style enforcement (Prettier / ESLinter setup / guidelines - documentation needed too)
 - [ ] Start coding (**NOT a priority**)
-	- [ ] Backend setup
-	- [ ] Frontend setup
+	- [ ] Backend setup #Julian
+	- [ ] Frontend setup #Matthew
 ### Testing & Deployment
 [[W5-sprint-end.pdf#page=18&selection=0,0,3,1|W5-sprint-end, page 18]]
 
 **Some work required.** Expectations for this sprint are low, but there are still tasks to complete. The main focus should be on **researching**, **planning**, and **documenting** these choices. If time permits, setting up and implementing basic scaffolds of the workflow can also be worthwhile, though this is secondary.
 
-- [ ] Testing (research/plan)
-- [ ] Deployment (research/plan)
+- [ ] Testing (research/plan) #Oliver #Everyone (e.g. postman for API)
+	- [ ] Link to decision records if big
+- [ ] Deployment (research/plan) #Julian
 	- [ ] Maybe a deployment pipeline diagram (see [[#Architectural Design]])
-- [ ] Acceptance criteria for User Stories
+- [ ] Acceptance criteria for User Stories #Zoy
 ## Other
 
 As mentioned in the intro, the above tasks are the priority - they are what's going to be graded. Nevertheless, there are a few miscellaneous tasks:
 
-- [ ] Quartz deployment of this documentation[^5]
-	- [ ] Index page 
-	- [ ] Custom theme (low priority)
-	- [ ] Auto-deployment on push (low priority)
-- [ ] General tidy-up of Obsidian docs before submission
+- [x] Quartz deployment of this documentation[^5] #Julian
+	- [x] Index page 
+	- [x] Custom theme (low priority)
+	- [x] Auto-deployment on push (low priority)
+- [ ] General tidy-up of Obsidian docs before submission #Oliver #Everyone
 
 [^5]: In the [[progress-checklist.pdf]] we submit, we will include links to this, so it's is **important.**
 
