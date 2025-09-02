@@ -1,4 +1,3 @@
-# FRXX – _Requirement Title_
 
 | **Functional Requirement** | State the requirement clearly (copy from the requirements table |
 | -------------------------- | --------------------------------------------------------------- |

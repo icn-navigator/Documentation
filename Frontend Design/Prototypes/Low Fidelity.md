@@ -13,7 +13,8 @@ This prototype "Setup" phase of the app. This includes:
 * Onboarding
 * *(Basically everything before the user enters the main app)*
 
-![[wireframe-app-setup.png]]
+![[wireframe-app-setup.pdf]]
+
 **Annotated wireframe diagram of app-setup** (see: [[wireframe-app-setup.pdf]])
 
 While the wireframe annotations capture most details, the following considerations guided our design: 
@@ -29,4 +30,4 @@ Together, these choices aim to make account creation smooth, guide users into th
 
 This section provides a high-level overview of the **main app interface**, focusing on its overall layout and the core pages that make it up.
 
-#TODO
+#

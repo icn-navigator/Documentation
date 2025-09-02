@@ -15,9 +15,9 @@
 A **functional** requirement is *what the system must do*, including key observable behaviour, services and features.
 
 >[!info]- `FR__` Links and User Stories
->Each **functional requirement** in the table links to a dedicated page where it is broken down into **user stories** and further detail. This structure helps us trace requirements to user needs and planned features.
+>Each **functional requirement** in the table links to a dedicated page where it is broken down into **user stories** and further detail. This structure helps us trace requirements to user needs.
 >
-> > [!warning]- We apply this approach only to _functional requirements_ — since user stories are best suited for describing observable system behaviour. It does not apply to non-functional requirements or out-of-scope items, where user stories are less meaningful.
+> > [!warning]- We apply this approach only to _functional requirements_ - since user stories are best suited for describing observable system behaviour. It does not apply to non-functional requirements or out-of-scope items, where user stories are less meaningful.
 
 | Test                           | Requirement                                                                                                    | Source                                                                                                                                                |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |

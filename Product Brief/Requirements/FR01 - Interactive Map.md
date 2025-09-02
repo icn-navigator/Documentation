@@ -5,7 +5,12 @@
 | **Source**                 | [[high-lvl-reqs.pdf#page=1&selection=124,0,124,27\|high-lvl-reqs, page 1]] and [[intro-slides.pdf#page=5&selection=21,0,28,35\|intro-slides, page 5]] |
 ## User Stories
 
-### US01 – View companies on map
+> [!info]- What are User Stories?
+> A user story is an informal, general explanation of a software feature written from the perspective of the end user. Its purpose is to articulate how a software feature will provide value to the customer.User stories give the team important context and associate tasks with the value those tasks bring. 
+> 
+> As a (type of user), I want to (do something specific) so that (I achieve some outcome).
+> 
+> Read more here: [Atlassian - User Stories](https://www.atlassian.com/agile/project-management/user-stories)
 
 **As a** business seeker  
 **I want to** view nearby companies displayed on an interactive map  
