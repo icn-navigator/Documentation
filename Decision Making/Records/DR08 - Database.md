@@ -25,7 +25,6 @@ ICN Navigator requires an internal database (separate to the *ICN Directory Data
 	- Potentially less up-to-date resources
 - Doesn't have the same first-class support in Bun ([[DR05 - Backend Language]]) as PostgreSQL
 
-
 ### PostgreSQL
 **Positives:**
 - Modern, widely supported option
@@ -35,7 +34,6 @@ ICN Navigator requires an internal database (separate to the *ICN Directory Data
 **Negatives:**
 - Team isn't as familiar with specifics of PostgreSQL syntax
 	- *However*, many of the important differences are only apparent with more advanced use cases, which are likely to not occur in the account management of ICN Navigator
-
 
 ## Action items
 

@@ -99,14 +99,14 @@ The [[progress-checklist.pdf]] is due on the **Sunday, 7th of September**.
 
 **First stage done.**  Just needs to be broken down further into **User Stories**.
 
-- [ ] [[Requirement Breakdown]][^2]
+- [ ] [[Breakdown of Reqs]][^2]
 	- [x] Functional
 	- [x] Non-Functional
 	- [x] Out-of-scope
 	- [ ] Review by all team members #Everyone
 	- [ ] (Maybe) change [[W3-sprint-planning.pdf]] to better match this. #Julian
 - [ ] **IMPORTANT** Break down into **user stories** #Zoy #Everyone
-	- [ ] Also see: [[Requirement Breakdown]]
+	- [ ] Also see: [[Breakdown of Reqs]]
 	- [ ] Start with those specific to the current / next sprint (e.g. login / onboarding)
 	- [ ] Remaining user stories
 - [ ] Refined and add to **GitHub projects**[^3] #Oliver #Julian #Everyone

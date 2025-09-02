@@ -79,7 +79,7 @@ Please note that Zoy had an exam the week this stand-up corresponds to, so that 
 * Getting things together for the [[Progress Checklist]] with a primary focus on **artefacts**
 
 **What's done?**
-* Wrote a draft of the [[Requirement Breakdown]]
+* Wrote a draft of the [[Breakdown of Reqs]]
 * Draft of [[high-lvl-system-arch.pdf]]
 * Draft of [[wireframe-app-setup.pdf]]
 * General obsidian tidy-up (added more draft decision records)
@@ -101,7 +101,7 @@ Please note that Zoy had an exam the week this stand-up corresponds to, so that 
 ## Action Items
 
  - [ ] Deploy documentation
- - [ ] Team review of [[Requirement Breakdown]]
+ - [ ] Team review of [[Breakdown of Reqs]]
 	 - [ ] Break down into **User Stories**
  - [ ] Team review of [[high-lvl-system-arch.pdf]]
 	 - [ ] Needs justification written
