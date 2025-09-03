@@ -29,5 +29,3 @@ Together, these choices aim to make account creation smooth, guide users into th
 ## Main App Pages
 
 This section provides a high-level overview of the **main app interface**, focusing on its overall layout and the core pages that make it up.
-
-#

@@ -19,6 +19,8 @@ A **functional** requirement is *what the system must do*, including key observa
 >
 > > [!warning]- We apply this approach only to _functional requirements_ - since user stories are best suited for describing observable system behaviour. It does not apply to non-functional requirements or out-of-scope items, where user stories are less meaningful.
 
+See also the [[Project Management Doc]] for more info on how this is reflected on [GitHub Projects](https://github.com/orgs/icn-navigator/projects/3/views/3). 
+
 | Test                           | Requirement                                                                                                    | Source                                                                                                                                                |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[FR01 - Interactive Map]]     | Display an interactive, **map-based directory** of companies, including their locations and capabilities<br>   | [[high-lvl-reqs.pdf#page=1&selection=124,0,124,27\|high-lvl-reqs, page 1]] and [[intro-slides.pdf#page=5&selection=21,0,28,35\|intro-slides, page 5]] |
