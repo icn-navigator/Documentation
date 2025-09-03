@@ -1,26 +1,35 @@
 
-| **Status**     | #NotStarted / #InProgress / #Complete                              |
-| -------------- | ------------------------------------------------------------------ |
-| **Impact**     | #High / #Medium / #Low                                             |
-| **Driver/s**   |                                                                    |
-| **Approver/s** |                                                                    |
-| **Date**       | Monday, September 1st                                             |
-| **Links**      | Links to relevant research, pages, meetings, and related decisions |
+| **Status**     | #Complete                                                              |
+| -------------- | ---------------------------------------------------------------------- |
+| **Impact**     | #Medium                                                                |
+| **Driver/s**   | Zoy                                                                    |
+| **Approver/s** | Oliver, Julian, Mat                                                    |
+| **Date**       | Monday, Septembe                                                       |
+| **Links**      | Discussion in Discord (screenshots attached), https://fontawesome.com/ |
 
 ## Background
-
-Provide context on a decision the team needs to make and include information about constraints and challenges.
+The team needed to decide whether to adopt a UI library for the frontend design of the ICN system, or to proceed without one. This decision affects implementation complexity, styling flexibility, and branding alignment.
 ## Relevant Data
 
-Add any data or feedback the team should consider when making this decision.
+- Some parts of the system currently use the "Font Awesome Icon" library for icons.
+- The majority of the UI has already been designed without a UI library.
+- Team members have started implementing components based on custom styles and lightweight design choices.
 ## Options Considered
-
-Discuss alternate options and their positives and negatives.
+**Option 1: Adopt a UI Library**
+- Pro: Pre-built components reduce dev time.
+- Con: Requires redesign and re-implementation of existing components. May limit design flexibility.
+**Option 2: Without UI Library**
+- Pro: More control over visual styling. Easier to follow brand guidelines. Lightweight.
+- Con: Slightly more manual work for building reusable components.
 ## Action items
-
-Add action items to close the loop on open questions or concerns.
-
---- 
+- Proceed without adopting a full UI library.
+- Specify in documentation that Font Awesome Icons are used where applicable.
+- Continue documenting UI choices and component design standards.
 ## Outcome
+The team has decided not to use a full UI library, given the simplicity of the UI and the benefit of flexibility. Icon support using Font Awesome is sufficient for current needs. This approach also better aligns with the branding and avoids unnecessary rework.
 
-Summarise the outcome. 
+##  Supporting Attachment
+
+![[Screenshot 2025-09-03 at 15.16.57.png]]
+
+![[Screenshot 2025-09-03 at 15.17.27.png]]

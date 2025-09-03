@@ -6,7 +6,7 @@ features into four categories:
 - **Could-Have:** Initiatives that are nice to have in your product.
 - **Won't-Have:** Initiatives that are not the priorities in your product.
 
-## Story Point##
+## Story Point
 We use PlanningPokerOnline.com as a collaborative tool to estimate story points through team voting. Each team member selects a number representing their estimate, and the team discusses discrepancies to reach a consensus.
 
 We apply the Fibonacci sequence (0, 1, 2, 3, 5, 8, 13, 21, ...) as the voting scale. This sequence reflects increasing uncertainty and effort as task complexity grows, making it ideal for agile estimation.
