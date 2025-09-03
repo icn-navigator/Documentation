@@ -9,7 +9,6 @@
 > Our agile approach ensures we can adapt and refine these requirements if and when the official documentation becomes available.  See [[Client Disclaimer]] for more details.
 
 **NOTE:** This document **focusses on the software product** - the *ICN Navigator App*. However, as an assignment, this project does include other deliverables (this document for instance!). These other "requirements" are included in our GitHub Project but are labeled with the "documentation" tag, and are not omitted from this breakdown.
-
 ## Functional Requirements
 
 A **functional** requirement is *what the system must do*, including key observable behaviour, services and features.

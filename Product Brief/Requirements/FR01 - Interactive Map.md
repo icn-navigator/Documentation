@@ -5,8 +5,6 @@
 | **Source**                 | [[high-lvl-reqs.pdf#page=1&selection=124,0,124,27\|high-lvl-reqs, page 1]] and [[intro-slides.pdf#page=5&selection=21,0,28,35\|intro-slides, page 5]] |
 ## User Stories
 
-
-
 ### US01 - View companies on map
 
 **As a** business seeker  

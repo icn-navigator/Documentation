@@ -17,6 +17,7 @@ ICN Navigator requires an internal database (separate to the *ICN Directory Data
 ## Options Considered
 
 ### MySQL
+
 **Positives:**
 - Most members of the team have worked with MySQL before
 - Simple hosting and deployment options available
