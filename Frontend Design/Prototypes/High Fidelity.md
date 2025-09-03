@@ -22,3 +22,16 @@ For this design, again we prioritised these considerations
 - **ICN Brand Guidelines** - The colour scheme and images were inspired by the ICN website, which serves and will continue to serve as the colour scheme for future add ons such as the map other services.
 
 ## Main App Pages
+
+
+![[high-fid-map.pdf]]
+
+(see: [[high-fid-map.pdf]])
+
+![[high-fid-search-filter-list.pdf]]
+
+(see: [[high-fid-search-filter-list.pdf]])
+
+![[high-fid-map-pins.pdf]]
+
+(see: [[high-fid-map-pins.pdf]])
