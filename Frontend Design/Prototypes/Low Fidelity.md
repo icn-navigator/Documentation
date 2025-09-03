@@ -28,4 +28,16 @@ Together, these choices aim to make account creation smooth, guide users into th
 
 ## Main App Pages
 
-This section provides a high-level overview of the **main app interface**, focusing on its overall layout and the core pages that make it up.
+This section provides an overview of the **main app interface**, focusing on its overall layout and the core pages that make it up.
+
+![[high-fid-map.pdf]]
+
+(see: [[high-fid-map.pdf]])
+
+![[high-fid-search-filter-list.pdf]]
+
+(see: [[high-fid-search-filter-list.pdf]])
+
+![[high-fid-map-pins.pdf]]
+
+(see: [[high-fid-map-pins.pdf]])

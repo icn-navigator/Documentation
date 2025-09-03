@@ -195,7 +195,7 @@ Going well. However, frontend design is a large task and a major deliverable.
 	- [ ] Code style enforcement (Prettier / ESLinter setup / guidelines - documentation needed too)
 - [ ] Start coding (**NOT a priority**)
 	- [ ] Backend setup #Julian
-	- [ ] Frontend setup #Matthew
+	- [x] Frontend setup #Matthew
 ### Testing & Deployment
 [[W5-sprint-end.pdf#page=18&selection=0,0,3,1|W5-sprint-end, page 18]]
 
