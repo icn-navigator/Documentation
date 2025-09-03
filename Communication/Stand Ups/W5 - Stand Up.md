@@ -10,16 +10,23 @@
 Please note that Zoy had an exam the week this stand-up corresponds to, so that limited her work output on this project. 
 
 **Focus**
-* Research
+* Research on similar products and potential users
+- Understanding team workflows and project structure
+- Initial backend setup and tech stack familiarization
 
-**What's done?**
-* Research? 
+**What's done**
+* Researched existing products and potential customer needs
+- Got familiar with how the team is managing tasks and documentation
+- Looked into backend tools/services likely to be used in this project
 
-**What's next?**
-* Seek team member help for what to do next 
+**What's next**
+- Assist with UI design requirements gathering and asset preparation
+- Contribute to documentation updates (e.g. decision logs, user stories)
+- Share initial research findings and insights
 
-**Blockers?**
-*  Some uncertainty on what to work on that will best help the team
+**Blockers**
+* Still clarifying which backend or UI areas need the most help
+- Need more alignment with team on documentation structure
 
 ### Alex
 
