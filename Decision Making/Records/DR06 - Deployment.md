@@ -1,4 +1,4 @@
-| **Status**     | #InProgress                                                        |
+| **Status**     | #Complete                                                          |
 | -------------- | ------------------------------------------------------------------ |
 | **Impact**     | #High                                                              |
 | **Driver/s**   | @Julian                                                            |
@@ -54,6 +54,7 @@ To support this decision, here are some definitions/reminders for key terms:
 **Negatives:**
 - More initial effort in setting up
 	- Need to manually configure TLS and CI/CD
+	- Also requires paying for a domain to enable TLS
 - Slightly more complex than all-in-one solutions
 
 An ideal minimal technology stack to meet the client criteria with a VPS hosting solution requires:
@@ -75,14 +76,14 @@ To ensure we utilise widely adopted and well documented systems, a good choice w
 **Positives:**
 - Hybrid approach between 1st and 2nd option
 	- Simplicity of the all-in-one serverless platform with some flexibility of custom VPS hosting
+- TLS is automatically configured, even in the free tier
 **Negatives:**
 - Potentially less scalable than a custom system (cost and throughput-wise)
 
 ## Action items
 
-Add action items to close the loop on open questions or concerns.
-
 --- 
 ## Outcome
 
-Summarise the outcome. 
+
+Overall we decided to use Render as a it is a suitable middle-ground in simplicity, flexibility, and scalability. 
