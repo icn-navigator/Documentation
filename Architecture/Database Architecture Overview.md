@@ -1,6 +1,8 @@
 
 ## DB Schema Diagram
+
 This is the core DB schema for the app, based on the relevant requirements for sprint 1
+
 ![[ICN Navigator DB Schema.pdf]]
 
 The current planned database schema accounts for the relevant requirements for the current functionality of the app.

@@ -8,6 +8,3 @@ This section includes links to documents that we would like feedback on.
 | [[High Level Architectural Overview]] | - Do the chosen technologies align with your expectations for ICN Navigator in terms of scalability, reliability, and long-term maintainability?<br>- Are there any areas where you'd like more detail or justification?<br>- Do you have any potential risks/concerns?                                                                                                                             | Pending         |
 | [[Breakdown of Reqs]]                 | - Does this working set of functional requirements reflect your vision (are there any key requirements missing/lacking clarity)?<br>- Are the nonfunctional requirements (e.g., UI quality, maintainability, security) aligned with your expectations (any missing?)                                                                                                                                | Pending         |
 
-
-
-

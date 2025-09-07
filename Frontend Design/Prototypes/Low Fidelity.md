@@ -26,6 +26,5 @@ While the wireframe annotations capture most details, the following consideratio
 
 Together, these choices aim to make account creation smooth, guide users into the right category, and set expectations before entering the main app.
 
-## Main App Pages
+## Main App
 
-This section provides an overview of the **main app interface**, focusing on its overall layout and the core pages that make it up.
