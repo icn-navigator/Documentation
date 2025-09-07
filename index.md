@@ -5,7 +5,6 @@ This is the online version of the documentation for the **ICN Navigator Project*
 Written by team **ZAMJO** (see: [[Roles and Responsibilities]])
 
 This documentation serves as a **centralised hub** for collating all key information related to the project, including:  
-
 * Team management
 * Agile ceremonies and workflows  
 * Planning
