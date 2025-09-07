@@ -87,7 +87,7 @@ Please note that Zoy had an exam the week this stand-up corresponds to, so that 
 
 **What's done?**
 * Wrote a draft of the [[Breakdown of Reqs]]
-* Draft of [[high-lvl-system-arch.pdf]]
+* Draft of [[new-high-level-arch.pdf]]
 * Draft of [[wireframe-app-setup.pdf]]
 * General obsidian tidy-up (added more draft decision records)
 
