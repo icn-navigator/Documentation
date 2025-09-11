@@ -1,7 +1,7 @@
 
-## US01 - Welcome Page
+## US01 - Welcome Page(s)
 **As a** new user,  
-**I want to** see a welcome screen with clear benefits,  
+**I want to** see onboarding screens with features and personalisation questions
 **so that** I understand what the platform offers.
 **Acceptance Criteria**
 - A visually appealing welcome screen appears on first visit
