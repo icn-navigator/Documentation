@@ -28,22 +28,55 @@ See also: [[progress-checklist.pdf]]
 | Assignments from other subjects (e.g. MOC) are being released during this sprint. | Regular team meetings and check-ins. |
 
 ## Selected PBI's
-### Documentation
 
-* Write **functional / non-functional requirements** document (organise into epic, features, and user stories)
-* Write **project plan** and **timeline**
-* **UI Prototyping**
-	* Low Fidelity - wireframe 
-	* High Fidelity - Figma (will be broken up into sections / pages)
-* Diagram **system design architecture** 
-### Development
+### Backlog Draft (very rough)
 
-* Develop **MVP showcase**
-	* Simple sign up and login (including backend integration)
-	* Onboarding
-	* Basic functional pages
-* Test **MVP Showcase**
-* Deploy **MVP Showcase**
+#### Other
+
+* Frontend setup
+	* MapBox proof of concept
+* Backend setup
+
+#### Backend Setup
+
+* Create DB
+	* Clean and data extract and normalisation into seperate tables/entities with FKs etc.
+	* Finalise schema for Account information
+* Deployment pipeline implementation 
+#### Onboarding
+
+Onboarding includes account creation and onboarding questions, membership.
+
+* Complete the UI prototype (finalised, ready for implementation on Figma)
+	* Come up with a set of onboarding questions
+* Developing the frontend (React Native)
+	* Mobile
+	* Web
+* Backend integration
+	* Account creation
+	* Onboarding question support
+	* Placeholder onboarding questions
+	* Unit tests
+	
+#### Authentication
+
+* Implement sign in page
+* Backend support (server integration)
+	* Expose authentication API
+* Persistent sessions support
+	* Frontend
+	* Backend
+#### Map
+
+* Complete the UI prototype (finalised, ready for implementation on Figma)
+* Develop non-interactive layout for the UI (maybe use data)
+* Backend architecture of map services
+
+* Filters
+* List view
+* Organisation profile view
+
+
 ## Task Breakdown and Estimates
 
 This was completed on GitHub Projects. 
