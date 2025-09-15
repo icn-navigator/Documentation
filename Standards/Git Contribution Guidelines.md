@@ -18,9 +18,10 @@ The intention of these rules is just to:
 
 ## Rule 1 - Don't commit directly to main
 
-Before implementing something in code, think about what "unit of work" is being implemented. Typically this will be a subtask derived from a user story (or even a user story itself, depending on how large it is), for example: "user authentication" or "map filtering". Once you have thought about the exact feature you intend to implement, create a *feature branch* for it in your local repository (e.g. login-page).
+Before implementing something in code, think about what "unit of work" is being implemented. Typically this will be a subtask derived from a user story (or even a user story itself, depending on how large it is), for example: "user authentication" or "map filtering". Once you have thought about the exact feature you intend to implement, create a *feature branch* for it in your local repository (e.g. `feature/login-page`).
 - Feel free to commit as much as needed to this new feature branch! (Using the format listed in *Rule 4*)
 - This should keep main stable and conflict free
+- Ensure the feature branch name is prefixed with `feature`
 
 
 ## Rule 2 - Use pull requests
