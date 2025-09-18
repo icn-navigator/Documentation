@@ -1,5 +1,6 @@
 
 # Overview
+
 Unfortunately Github doesn't provide a method of implementing branch protection for free on a private repository, so this document is intended to outline the standard procedure for contributing code to the project.
 
 The intention of these rules is just to:
@@ -8,6 +9,7 @@ The intention of these rules is just to:
 - Make sure the main branch maintains stability as the "release branch"
 
 ## Repository Structure
+
 - `main` - Our "release branch". This must be kept stable and is what is deployed to a production server.
 - `develop` - The primary branch we'll merge changes to (See *rule 2* for conventions on contribution).
 - `hotfix` - Used when there is an urgent issue with the `main` branch that needs to be fixed immediately.
