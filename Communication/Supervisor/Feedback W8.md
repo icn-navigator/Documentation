@@ -43,6 +43,7 @@ Possible improvements:
 
 * **Meeting notes:** Good, although put the assignee next to actions items (link to GitHub issues/user stories) 
 	* Better linking to decisions made in the [[Decision Log]]
+
 ### Artefacts
 
 * Product brief - needs some work

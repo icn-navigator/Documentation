@@ -56,4 +56,5 @@ The **subject** should be a short message in the *imperative* mood.
 
 
 
+Also, anyone have thoughts on state management? Context is simple, but I’ve seen people recommend [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction) since it handles persistence and avoids re-renders more cleanly.
 
