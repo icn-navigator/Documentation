@@ -5,7 +5,6 @@ Options:
 - Find potential suppliers or partners
 - Research industry sectors and trends
 - Access government/industry procurement insights
-
 ### 2. Sector Interest
 **Which industry sectors are you most interested in?**  
 (Multi-select)
