@@ -6,7 +6,9 @@ We are using [GitHub Projects](https://github.com/orgs/icn-navigator/projects/3/
 > * For understanding Scrum and the Agile methodology[ Atlassian's no-nonsense guide to Agile](https://www.atlassian.com/agile) was a valuable resource 
 > * See also the lecture/workshop slides and [[L2-agile.pdf]] and [[W3-sprint-planning.pdf]] 
 
----
+>[!warning]
+> As of **Week 8** we have updated `requirements` to `tasks` and `tasks` to `subtasks` for more clear separation from software requirements and general project tasks (both coding and non-coding). This is purely a naming change, all the following info/practices generally applies.
+
 ## Hierarchy of Work Items
 
 We use three levels of work items to organise and track progress. Each level helps break down the project into smaller more manageable parts:
