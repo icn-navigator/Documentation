@@ -30,4 +30,4 @@ Together, these choices aim to make account creation smooth, guide users into th
 
 A very approximate draft of the main web app UI (subject to change). Our main focus is finalising the mobile app.
 
-![[wireframe-main-app-simple.pdf]] 
+![[wireframe-main-web.pdf]]
