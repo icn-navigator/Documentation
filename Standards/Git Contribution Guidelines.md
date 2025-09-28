@@ -40,6 +40,7 @@ When working on a feature branch, make sure to regularly pull changes to your lo
 ## Rule 4 - Commit Naming Scheme
 
 When making a commit to any branch, use the following format for the commit message to make the history easier to follow:
+
 ```
 <type>: <subject>
 ```

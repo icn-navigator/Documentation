@@ -26,5 +26,8 @@ While the wireframe annotations capture most details, the following consideratio
 
 Together, these choices aim to make account creation smooth, guide users into the right category, and set expectations before entering the main app.
 
-## Main App
+## Web App (main app)
 
+A very approximate draft of the main web app UI (subject to change). Our main focus is finalising the mobile app.
+
+![[wireframe-main-app-simple.pdf]] 

@@ -1,5 +1,4 @@
 **Date:** Thursday, 18th of September (Week 9)
-
 ## Schedule
 
 * Week 8 - Feedback giving + stand up
@@ -53,11 +52,11 @@ Possible improvements:
 * Diagrams - decent but could use some more
 	* Mention architecture goals and constraints
 	* Architecture diagrams - add more linking to decision logs
-	* Potentially add use case diagram
-	* Add domain model
-	* Refer to 4+1 architecture model see 
-	* User flow diagrams (e.g. for sign-in navigation)
-	* System sequence diagram (for information flow)
+	* Potentially add use case diagram DONE
+	* Add domain model 
+	* Refer to 4+1 architecture model see TODO
+	* User flow diagrams (e.g. for sign-in navigation) MAYBE
+	* System sequence diagram (for information flow) DONE
 
 ### Code
 
@@ -70,5 +69,5 @@ However for sprint 2 don't forget:
 * Backend documentation
 	* API endpoints docs (status codes, methods etc., data schema)
 * Better README  
-* Coding standard - we have git contribution guidelines, but code formatting guidelines would be good (Prettier / Eslint shared config file / CI/CD pipeline)
+* Coding standard - we have git contribution guidelines, but code formatting guidelines would be good (Prettier / ESlint shared config file / CI/CD pipeline)
 

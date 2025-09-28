@@ -4,11 +4,13 @@
 * **Email:** guanqin.wang.1@unimelb.edu.au
 * **Alternative Contact:** He is now in our Discord Server
 * **Tutorial:** Thursday 12:00pm
+
 ## Clients
 
 * #TODO Find out the clients names and preferred contact method
 * Lynn 
 * Roy
+
 ## Team Members:
 
 The formidable **ZAMJO** team...

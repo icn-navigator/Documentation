@@ -17,6 +17,7 @@ One element where we thought **secondary** colours might be well suited is in hi
 ### Logo
 
 The brand guidelines included many alternatives/options for the ICN logo. We plan to use the logo sparingly but effectively, and always inline with the **logo usage guidelines** described in the document.
+
 #### Custom Logo
 
 Since _ICN Navigator_ is a new product, it could be argued that it warrants its own logo. However, we have chosen to use the existing _ICN Victoria_ logo without modification for several reasons:
@@ -34,6 +35,7 @@ We will use the suggested font (Poppins) and follow the imagery guidelines.
 ## Inspiration & References
 
 A key part of the **research and discovery** step of our [[Design Process]] is sourcing resources to aid as references and inspiration both for user interfaces and the user experience / flow. 
+
 ### App Setup - `Imprint`
 
 [Imprint](https://imprintapp.com/), a learning application, was suggested by the client (see: [[intro-slides.pdf]]) as a source of inspiration **app setup** which includes:
@@ -76,6 +78,7 @@ For _ICN Navigator_, the challenge is enabling users to filter businesses by typ
 * Allow users to easily reset or adjust their selections
 
 **NOTE:** since HappyCow is a paid app (at least on iOS), we were not able to access the app directly, but we were able to get a reasonable idea of what the app looks like based on images online and in their app store listing and product description on their website.
+
 ## Design Principles / Considerations
 
 #TODO

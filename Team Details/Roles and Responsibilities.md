@@ -9,9 +9,11 @@ Our team roles are as follows:
 | Zoy     | Team Member                             |
 
 Confirmed in [[W1 - Meeting 2]].
+
 ## Role Breakdown
 
 Everyone should understand the responsibilities of their own role, and of others.  
+
 ### Scrum Master
 
 * Provides leadership and guidance

@@ -14,6 +14,7 @@ flowchart TD
 ```
 
 #### Handling Production Bugs
+
 Typically the most likely time to encounter bugs is during the rollout of a new deployment. We can mitigate the likelihood of this, as well as the impact of it should it still happen through 2 key properties of our development and deployment plans:
 - `main` must always be stable and thoroughly tested locally. Any PRs must be approved by the entire team
 - Render permits quick rollbacks to previous deployments, allowing us to quickly address the issue using our `hotfix` development branch - before we push the new (stabilised) version to `main` (and thus, production)

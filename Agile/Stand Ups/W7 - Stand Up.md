@@ -1,6 +1,7 @@
 **Date:** Thursday, September 11th 
 **Time:** 1:00pm
 **Notetaker:** Oliver
+
 ## Review
 
 ### Zoy

@@ -41,6 +41,7 @@ React automation testing tools *can* help verify your apps quality by performing
 
 * [Jest](https://jestjs.io/) - Popular choice with built-in assertions, snapshot testing, and zero-config setup. (React actually ships with it - see [React Testing Overview](https://reactnative.dev/docs/testing-overview#writing-tests))
 * [Jasmine](https://jasmine.github.io/) - Behaviour-driven framework supporting clean syntax and easy test structuring.
+
 ### Useful Resources:
 
 * https://www.browserstack.com/guide/front-end-testing
@@ -52,6 +53,7 @@ React automation testing tools *can* help verify your apps quality by performing
 Backend testing is a type of software testing that focuses on testing the non-user-facing components of a software application, such as the database, APIs, and server-side code. Backend testing is important to ensure that the application can handle the expected load and provide a reliable and secure user experience.
 
 Since the backend contains most of the project's business logic, testing here should be very structured. 
+
 ### Bun Testing
 
 Since we're using Bun runtime (see: [[DR05 - Backend Language]]), Bun's built in test runner ([docs](https://bun.com/docs/cli/test)) is the obvious choice.

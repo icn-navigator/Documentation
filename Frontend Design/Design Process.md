@@ -1,4 +1,5 @@
 This document discusses the approach taken to frontend design for UI/UX.
+
 ## Process
 
 ### Our design-code iteration model
@@ -12,6 +13,7 @@ For example, for **Sprint 1** (see: [[W4 - Sprint Planning]]) we are focussing s
 * Onboarding
 
 This is opposed to designing the UI and user-flows of the **full app** in one go before beginning on it's implementation. 
+
 ### Why we chose this approach
 
 * **Uncertain requirements** - some requirements and preferences are still evolving, this approach is more agile and flexible to changes for less cost.
