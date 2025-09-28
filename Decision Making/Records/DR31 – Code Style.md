@@ -2,10 +2,10 @@
 | **Status**     | #Planned                                               |
 | -------------- | ------------------------------------------------------ |
 | **Impact**     | #Medium                                                |
-| **Driver/s**   | Oliver                                                 |
-| **Approver/s** | Julian, Zoy                                            |
-| **Date**       | Tuesday, October 1st                                   |
-| **Links**      | Sprint 8 Feedback, GitHub Repo Contribution Guidelines |
+| **Driver/s**   | Julian                                                 |
+| **Approver/s** | Oliver, Zoy                                            |
+| **Date**       | Tuesday, September 22nd                                |
+| **Links**      | Sprint 1 Feedback, GitHub Repo Contribution Guidelines |
 
 ## Background
 The team already has **contribution guidelines** for commits and branching, but lacks a consistent **code formatting and linting standard**. Feedback recommended adopting shared configuration files (Prettier, ESLint) to improve code quality and ensure consistency across developers.

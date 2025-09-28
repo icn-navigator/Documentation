@@ -1,11 +1,11 @@
 
-| **Status**     | #Pending                                             |
-| -------------- | ---------------------------------------------------- |
-| **Impact**     | #Medium                                              |
-| **Driver/s**   | Alex                                                 |
-| **Approver/s** | Matthew, Julian                                      |
-| **Date**       | Sunday, September 29th                               |
-| **Links**      | Client Sprint Feedback (Week 6), Sprint Review Notes |
+| **Status**     | #Complete              |
+| -------------- | ---------------------- |
+| **Impact**     | #Medium                |
+| **Driver/s**   | Julian                 |
+| **Approver/s** | Matthew                |
+| **Date**       | Sunday, September 28th |
+| **Links**      |                        |
 
 ## Background
 The client confirmed that users may sign up using **Google or Facebook accounts** in addition to the standard email-based sign-up. This could improve onboarding flow and align with modern authentication expectations. However, the team has not yet committed to implementing social login, preferring to wait until the framework is stable.
@@ -36,3 +36,6 @@ The client confirmed that users may sign up using **Google or Facebook accounts*
 ## Outcome
 The team decided to **defer the final decision on social authentication** until after the core framework is established.  
 Email login will be implemented first, with Google/Facebook sign-in considered later depending on progress.
+
+To simplify the implementation and architecture we'll use a built-in authentication using Bun's tooling for hashing passwords as not integrating a discrete authorisation service allows us to maintain a more minimal deployment and maintenance process due to the simpler architecture.
+
