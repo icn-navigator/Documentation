@@ -30,8 +30,8 @@ To protect sensitive data from being utilised maliciously and maintain trust fro
 
 **What?**
 System should ensure data is saved and can be accessed later. This includes (but is not limited to):
-
 - Users saved data (e.g. favorited organisations)
+- Database data
 - User login status
 
 **Why?**
@@ -50,7 +50,6 @@ System should be intutive and accessible to users. This should be the case for b
 Complex interfaces reduce adoption and user satisfiaction. For the cohesive design aspect - it should be intutive to come from the mobile app and use the web app and vis versa.
 
 **How?**
-
 - Follow platform UI guidelines (e.g. respect safe areas)
 - Look at good sources of inspirtation of established apps
 - Implement responsive design
