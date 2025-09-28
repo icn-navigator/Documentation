@@ -12,7 +12,7 @@ To protect sensitive data from unauthorised access.
 
 **How?**
 - Require users to log-in to correct account before providing sensitive information
-- Use custom Bun api #TODO link decision record
+- Use custom Bun api (See [[DR21 – Authentication Options]])
 
 ### Confidentiality
 
