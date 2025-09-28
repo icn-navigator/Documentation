@@ -37,4 +37,6 @@ Notes for adding decisions:
 | W8   | Frontend docs            | Break down components + link test cases                                     | [[DR29 – Frontend Documentation]]                          | #Planned    |
 | W8   | Backend docs             | Document API endpoints (status codes, schemas)                              | [[DR30 – Backend Documentation]]                           | #Planned    |
 | W8   | Code style               | Prettier + ESLint shared config, enforce via CI/CD                          | [[DR31 – Code Style]]                                      | #Planned    |
+| W8   | Map framework update     | Use react native maps for mobile                                            | [[DR32 - Map framework update]]                            | #Complete   |
+| W8   | Progress bar choice      | Use react progress                                                          | [[DR33 - Progress bar api]]                                | #InProgress |
 | W8   | README                   | Improve with setup, architecture, testing info                              |                                                            | #InProgress |
