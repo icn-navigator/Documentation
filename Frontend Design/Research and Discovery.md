@@ -78,7 +78,3 @@ For _ICN Navigator_, the challenge is enabling users to filter businesses by typ
 * Allow users to easily reset or adjust their selections
 
 **NOTE:** since HappyCow is a paid app (at least on iOS), we were not able to access the app directly, but we were able to get a reasonable idea of what the app looks like based on images online and in their app store listing and product description on their website.
-
-## Design Principles / Considerations
-
-#TODO
