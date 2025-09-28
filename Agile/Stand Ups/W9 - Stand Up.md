@@ -75,17 +75,20 @@ Do you have any blockers?
 
 ### Zoy
 
-**Focus**
-What did you focus on?
+**Focus**  
+I focused on the onboarding process and frontend development.  
 
-**What's done?**
-What did you get done?
+**What's done?**  
+- Designed onboarding questions.  
+- Developed the organization profile frontend.  
+- Created wireframes for the web page design.  
 
-**What's next?**
-What do you have planned to do next?
+**What's next?**  
+- Finish organization front end based on feedback.  
+- Finalize web page design and start frontend implementation.  
 
-**Blockers?**
-Do you have any blockers?
+**Blockers?**  
+- Waiting for feedback  
 
 ## Questions
 
