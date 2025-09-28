@@ -24,16 +24,19 @@
 ### Julian
 
 **Focus**
-What did you focus on?
+- Backend development
+- Documentation
 
 **What's done?**
-What did you get done?
+- Account creation logic
+- Initial database deployment
 
 **What's next?**
-What do you have planned to do next?
+- More backend development
+- Preparing for product demo
 
 **Blockers?**
-Do you have any blockers?
+- None at the moment
 
 ### Matthew
 

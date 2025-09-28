@@ -28,16 +28,22 @@
 ### Julian
 
 **Focus**
-What did you focus on?
+- Backend: More account management development
+- Frontend: Working on organisation list
 
 **What's done?**
-What did you get done?
+- Some frontend and backend development
+	- Implemented shared types for backend and frontend to both use
+	- Permits end-to-end type safety within the app
+- Database schema updates
 
 **What's next?**
-What do you have planned to do next?
+- CI/CD updates (formatting and testing)
+	- Now that we've decided on common frontend formatting we can transition away from individual Prettier configurations to a standalone "on PR" setup
+	- I'll also set up our automated testing system for the backend now that more backend dev is happening.
 
 **Blockers?**
-Do you have any blockers?
+- 
 
 ### Matthew
 
