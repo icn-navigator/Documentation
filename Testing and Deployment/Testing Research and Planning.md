@@ -1,6 +1,6 @@
 
 > [!info] 
->  See [[High Level Architectural Overview]] for an overview of the architecture and technologies we are using. 
+>  See [[High Level Overview]] for an overview of the architecture and technologies we are using. 
 
 ## Goals
 
