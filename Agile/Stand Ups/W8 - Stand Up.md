@@ -65,17 +65,18 @@ Do you have any blockers?
 
 ### Zoy
 
-**Focus**
-What did you focus on?
+**Focus**  
+I focused on visualizing system structure and workflows.  
 
-**What's done?**
-What did you get done?
+**What's done?**  
+- Created use case diagram and some users story sequence diagram
 
-**What's next?**
-What do you have planned to do next?
+**What's next?**  
+- Share the diagrams with the team to confirm accuracy.  
+- Start preparing for onboarding question design.  
 
-**Blockers?**
-Do you have any blockers?
+**Blockers?**  
+- Need feedback from teammates to finalize the diagrams.  
 
 ## Questions
 

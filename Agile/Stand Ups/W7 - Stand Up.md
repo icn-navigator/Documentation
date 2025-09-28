@@ -6,17 +6,18 @@
 
 ### Zoy
 
-**Focus**
-What did you focus on?
+**Focus**  
+I focused on preparing the dataset for later analysis and development.  
 
-**What's done?**
-What did you get done?
+**What's done?**  
+- Completed data preprocessing and cleaned the dataset.  
 
-**What's next?**
-What do you have planned to do next?
+**What's next?**  
+- Review the processed dataset with the team.  
+- Ensure it is ready for model training and diagram design.  
 
-**Blockers?**
-Do you have any blockers?
+**Blockers**
+- None at the moment.  
 
 ### Alex
 
