@@ -21,7 +21,7 @@ For this design, again we prioritised these considerations
 - **Simplicity and functionality**  - We prioritised simplicity and functionality over aesthetics, as we wanted users to have a clear introduction of what services the app provides from their first use.
 - **ICN Brand Guidelines** - The colour scheme and images were inspired by the ICN website, which serves and will continue to serve as the colour scheme for future add ons such as the map other services.
 
-## Main App Pages
+## Main App Pages, Draft 1
 
 
 ![[high-fid-map.pdf]]
@@ -35,3 +35,7 @@ For this design, again we prioritised these considerations
 ![[high-fid-map-pins.pdf]]
 
 (see: [[high-fid-map-pins.pdf]])
+
+## Main App Pages, Draft 2
+
+![[icndraft.pdf]]
