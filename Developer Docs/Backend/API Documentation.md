@@ -17,6 +17,7 @@ Creates a new user account.
   "subscriptionTier": "number"
 }
 ```
+
 - `name`: The user's full name.
 - `email`: The user's email address. Must be unique.
 - `password`: The user's password (min 8 characters).
@@ -59,6 +60,7 @@ Authenticates a user and returns a new session token.
   "password": "string"
 }
 ```
+
 - `email`: The user's email address.
 - `password`: The user's password.
 
