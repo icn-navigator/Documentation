@@ -1,30 +1,117 @@
 
 ## Account Management
 
-### POST `/api/account`
+---
 
-**Summary:** Creates an account based on the information provided in the request body.
-**Headers:** N/A
-**Body:** `NewAccountDetails`
-- `name`: string
-- `email`: string
-- `password`: string
-- `subscriptionTier`: 0,1,2,3
+### `POST /api/account`
 
-#### Returned Values:
-- **Status Code:** 201 (CREATED)
-	- **Value:** 
-		- `accountId`: number
-		- `sessionId`: string (UUID)
-	- Occurs when account creation succeeds.
+Creates a new user account.
 
-- **Status Code:** 422 (UNPROCESSABLE ENTITY)
-	- **Value:** "Invalid account details provided"
-	- Occurs when the body format is incorrect
+#### Request Body
 
-- **Status Code:** 409 (CONFLICT)
-	- **Value:** "Email already registered"
+```json
+{
+  "name": "string",
+  "email": "string",
+  "password": "string",
+  "subscriptionTier": "number"
+}
+```
+- `name`: The user's full name.
+- `email`: The user's email address. Must be unique.
+- `password`: The user's password (min 8 characters).
+- `subscriptionTier`: `1` (Free), `2` (Standard), `3` (Pro).
 
-- **Status Code:** 500 (INTERNAL SERVER ERROR)
-	- **Value:** "Failed to create account"
-	- Occurs when the account record insertion process failed.
+#### Responses
+
+- **`201 CREATED`**
+  - **Description:** Account creation was successful.
+  - **Body:**
+    ```json
+    {
+      "accountId": "number",
+      "sessionId": "string"
+    }
+    ```
+
+- **`409 CONFLICT`**
+  - **Description:** "Email already registered"
+
+- **`422 UNPROCESSABLE ENTITY`**
+  - **Description:** "Invalid account details provided"
+
+- **`500 INTERNAL SERVER ERROR`**
+  - **Description:** "Failed to create account"
+
+## Session Management
+
+---
+
+### `POST /api/login`
+
+Authenticates a user and returns a new session token.
+
+#### Request Body
+
+```json
+{
+  "email": "string",
+  "password": "string"
+}
+```
+- `email`: The user's email address.
+- `password`: The user's password.
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Authentication successful.
+  - **Body:**
+    ```json
+    {
+      "token": "string"
+    }
+    ```
+
+- **`400 BAD REQUEST`**
+  - **Description:** "Bad Request"
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized"
+
+- **`500 INTERNAL SERVER ERROR`**
+  - **Description:** "Internal Server Error"
+
+---
+
+### `POST /api/logout`
+
+Logs a user out by invalidating their session token.
+
+#### Request Headers
+- `Authorization`: "Bearer <SESSION_TOKEN>"
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Logout successful.
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized"
+
+---
+
+### `GET /api/validate-session`
+
+Validates a session token.
+
+#### Request Headers
+- `Authorization`: "Bearer <SESSION_TOKEN>"
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** "OK" (Token is valid)
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized"
