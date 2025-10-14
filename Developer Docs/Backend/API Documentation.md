@@ -117,3 +117,38 @@ Validates a session token.
 
 - **`401 UNAUTHORIZED`**
   - **Description:** "Unauthorized"
+
+## Items
+---
+
+### `GET /api/items`
+
+Retrieves all items from the database.
+
+#### Request Body
+
+No path params, query params, or body.
+
+#### Responses
+
+- **`200 OK`**
+	- **Description:** Returns an array of items (can be empty)
+	- **Body**: Example below...
+
+```json
+[
+  { 
+	  "id": "DITM-000530",
+	  "detailedId": "ITM-002348",
+	  "name:" "instrumentation",
+	  "detailedName": "Process control & instrumentation"
+  }
+]
+```
+
+- **`500 INTERNAL SERVER ERROR`**
+	- **Description:** "Failed to fetch items"
+
+#### Notes
+
+- An empty result returns `200` and `[]`
