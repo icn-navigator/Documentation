@@ -1,4 +1,9 @@
 
+## Material
+
+Check out the following resources
+- [[W11-final-presentation.pdf]] (workshop presentation slides)
+- [[final-presentation-rubric.pdf]] (marking key - taken from canvas)
 ## Mark Breakdown
 
 - Content (4-6 marks)
@@ -13,7 +18,6 @@
 		- 15 mins for presentation itself
 		- 2-3 mins for Q&A
 - Entertainment (1-2 marks)
-
 
 ## Delivery
 
@@ -43,9 +47,4 @@
 	- Most proud of
 		- Our technology choices matching the task quite well
 		- i.e. our justifications for choosing the tech stack were valid?
-
-
-
-
-
 
