@@ -20,16 +20,16 @@ Do you have any blockers?
 ### Alex
 
 **Focus**
-What did you focus on?
+- Frontend
 
 **What's done?**
-What did you get done?
+- Bookmarks and code quality 
 
 **What's next?**
-What do you have planned to do next?
+- Frontend QoL changes
 
 **Blockers?**
-Do you have any blockers?
+- None
 
 ### Matthew
 
