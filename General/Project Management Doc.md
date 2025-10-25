@@ -54,7 +54,7 @@ Multiple user stories make up a requirement. To see our breakdown of user storie
 
 ![[github-projects-view-highlight-2.png]]
 
-The **Backlog** is the central collection of all work items - Epics, Requirements, and Tasks. New items are added here whenever they arise. During **Sprint Planning** (like [[W4 - Sprint Planning]]), the team selects which items to bring into the upcoming sprint, and at that point their [[#Priority]] and [[#Estimate]] values are reviewed and confirmed.
+The **Backlog** is the central collection of all work items - Epics, Requirements, and Tasks. New items are added here whenever they arise. During **Sprint Planning** (like [[W4 - Sprint 1 Planning]]), the team selects which items to bring into the upcoming sprint, and at that point their [[#Priority]] and [[#Estimate]] values are reviewed and confirmed.
 
 ### Current Sprint
 

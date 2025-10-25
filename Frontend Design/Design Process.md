@@ -6,7 +6,7 @@ This document discusses the approach taken to frontend design for UI/UX.
 
 We are follow an *iterative*, back-and-forth design process rather than a long "design first, then build" sequence. Each UI feature moves through a tight loop: research, low-fidelity prototype, high-fidelity prototype, refine and implement.
 
-For example, for **Sprint 1** (see: [[W4 - Sprint Planning]]) we are focussing solely on the "Setup" phase of the app. This includes:
+For example, for **Sprint 1** (see: [[W4 - Sprint 1 Planning]]) we are focussing solely on the "Setup" phase of the app. This includes:
 * Sign-in 
 * Sign-up
 * Authentication
