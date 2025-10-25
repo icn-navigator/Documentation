@@ -1,11 +1,14 @@
-
-## Account Management
+**Base URL:** `http://localhost:8000`
 
 ---
 
-### `POST /api/account`
+## Authentication & Account Management
 
-Creates a new user account.
+### 1. Start Signup
+
+**Endpoint:** `POST /api/auth/signup/start`
+
+Initiates account creation by storing pending account details and sending a verification code via email.
 
 #### Request Body
 
@@ -14,26 +17,20 @@ Creates a new user account.
   "name": "string",
   "email": "string",
   "password": "string",
-  "subscriptionTier": "number"
+  "subscriptionTier": 0 | 1 | 2 | 3
 }
 ```
 
-- `name`: The user's full name.
-- `email`: The user's email address. Must be unique.
-- `password`: The user's password (min 8 characters).
-- `subscriptionTier`: `1` (Free), `2` (Standard), `3` (Pro).
+- `name`: User's full name (required)
+- `email`: Valid email address (required, must be unique)
+- `password`: User's password (required)
+- `subscriptionTier`: `0` (Invalid), `1` (Free), `2` (Plus), `3` (Premium)
 
 #### Responses
 
-- **`201 CREATED`**
-  - **Description:** Account creation was successful.
-  - **Body:**
-    ```json
-    {
-      "accountId": "number",
-      "sessionId": "string"
-    }
-    ```
+- **`200 OK`**
+  - **Description:** Signup initiated successfully, verification code sent to email
+  - **Body:** `null`
 
 - **`409 CONFLICT`**
   - **Description:** "Email already registered"
@@ -41,16 +38,59 @@ Creates a new user account.
 - **`422 UNPROCESSABLE ENTITY`**
   - **Description:** "Invalid account details provided"
 
-- **`500 INTERNAL SERVER ERROR`**
-  - **Description:** "Failed to create account"
+---
 
-## Session Management
+### 2. Verify Challenge Code
+
+**Endpoint:** `POST /api/auth/verify-challenge`
+
+Verifies a challenge code (from signup or login) and creates a session.
+
+#### Request Body
+
+```json
+{
+  "email": "string",
+  "code": "string"
+}
+```
+
+- `email`: Email address used for signup/login (required)
+- `code`: 6-digit verification code received via email (required)
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Challenge verified, account created (if signup) and session established
+  - **Body:**
+    ```json
+    {
+      "userId": "number",
+      "token": "string (UUID v4)",
+      "hasCompletedOnboarding": "boolean",
+      "subscriptionTier": 0 | 1 | 2 | 3
+    }
+    ```
+
+- **`400 BAD REQUEST`**
+  - **Description:** "Pending signup not found" or "Account not found"
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Invalid or expired code"
+
+- **`422 UNPROCESSABLE ENTITY`**
+  - **Description:** "Invalid code details provided"
+
+- **`500 INTERNAL SERVER ERROR`**
+  - **Description:** Account or session creation failed
 
 ---
 
-### `POST /api/login`
+### 3. Start Login
 
-Authenticates a user and returns a new session token.
+**Endpoint:** `POST /api/auth/login/start`
+
+Validates credentials and sends a verification code to the user's email.
 
 #### Request Body
 
@@ -61,54 +101,36 @@ Authenticates a user and returns a new session token.
 }
 ```
 
-- `email`: The user's email address.
-- `password`: The user's password.
+- `email`: User's email address (required)
+- `password`: User's password (required)
 
 #### Responses
 
 - **`200 OK`**
-  - **Description:** Authentication successful.
-  - **Body:**
-    ```json
-    {
-      "token": "string"
-    }
-    ```
+  - **Description:** Credentials valid, verification code sent
+  - **Body:** `null`
 
 - **`400 BAD REQUEST`**
-  - **Description:** "Bad Request"
+  - **Description:** "Bad Request" (invalid request format)
 
 - **`401 UNAUTHORIZED`**
-  - **Description:** "Unauthorized"
+  - **Description:** "Unauthorized" (email not found or incorrect password)
 
 - **`500 INTERNAL SERVER ERROR`**
-  - **Description:** "Internal Server Error"
+  - **Description:** Challenge creation or email sending failed
+
+**Note:** After receiving a 200 response, use `/api/auth/verify-challenge` to complete login.
 
 ---
 
-### `POST /api/logout`
+### 4. Validate Session
 
-Logs a user out by invalidating their session token.
+**Endpoint:** `GET /api/auth/validate-session`
 
-#### Request Headers
-- `Authorization`: "Bearer <SESSION_TOKEN>"
-
-#### Responses
-
-- **`200 OK`**
-  - **Description:** Logout successful.
-
-- **`401 UNAUTHORIZED`**
-  - **Description:** "Unauthorized"
-
----
-
-### `GET /api/validate-session`
-
-Validates a session token.
+Checks if a session token is valid and not expired.
 
 #### Request Headers
-- `Authorization`: "Bearer <SESSION_TOKEN>"
+- `Authorization: Bearer <SESSION_TOKEN>`
 
 #### Responses
 
@@ -116,39 +138,316 @@ Validates a session token.
   - **Description:** "OK" (Token is valid)
 
 - **`401 UNAUTHORIZED`**
-  - **Description:** "Unauthorized"
+  - **Description:** "Unauthorized" (Token missing, invalid, or expired)
 
-## Items
 ---
 
-### `GET /api/items`
+### 5. Start Password Reset
 
-Retrieves all items from the database.
+**Endpoint:** `POST /api/auth/password-reset/start`
+
+Initiates password reset by sending a verification code via email.
 
 #### Request Body
 
-No path params, query params, or body.
+```json
+{
+  "email": "string"
+}
+```
+
+- `email`: User's email address (required)
 
 #### Responses
 
 - **`200 OK`**
-	- **Description:** Returns an array of items (can be empty)
-	- **Body**: Example below...
+  - **Description:** Request processed (verification code sent if email exists)
+  - **Body:** `null`
+
+- **`400 BAD REQUEST`**
+  - **Description:** "Bad Request" (invalid request format)
+
+**Security Note:** Always returns 200 even if email doesn't exist to prevent email enumeration.
+
+---
+
+### 6. Complete Password Reset
+
+**Endpoint:** `POST /api/auth/password-reset/complete`
+
+Completes password reset by verifying code and updating password.
+
+#### Request Body
 
 ```json
-[
-  { 
-	  "id": "DITM-000530",
-	  "detailedId": "ITM-002348",
-	  "name:" "instrumentation",
-	  "detailedName": "Process control & instrumentation"
-  }
-]
+{
+  "email": "string",
+  "code": "string",
+  "newPassword": "string"
+}
 ```
 
+- `email`: User's email address (required)
+- `code`: 6-digit verification code (required)
+- `newPassword`: New password (required)
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Password updated successfully
+  - **Body:** `null`
+
+- **`400 BAD REQUEST`**
+  - **Description:** "Bad Request" (invalid request format)
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized" or "Invalid or expired code"
+
+---
+
+### 7. Logout
+
+**Endpoint:** `POST /api/auth/logout` or `GET /api/auth/logout`
+
+Terminates the user session.
+
+#### Request Headers
+- `Authorization: Bearer <SESSION_TOKEN>`
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Logout successful
+  - **Body:** Empty string
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized" (Token missing or invalid)
+
+---
+
+## ICN Data
+
+### 8. Get Items
+
+**Endpoint:** `GET /api/items`
+
+Retrieves all available items for filtering/searching.
+
+#### Request Headers
+- `Authorization: Bearer <SESSION_TOKEN>`
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Items retrieved successfully
+  - **Body:**
+    ```json
+    [
+      {
+        "id": "string",
+        "detailedId": "string",
+        "name": "string",
+        "detailedName": "string"
+      }
+    ]
+    ```
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized"
+
 - **`500 INTERNAL SERVER ERROR`**
-	- **Description:** "Failed to fetch items"
+  - **Description:** "Failed to fetch items"
 
-#### Notes
+---
 
-- An empty result returns `200` and `[]`
+### 9. Get Sectors
+
+**Endpoint:** `GET /api/sectors`
+
+Retrieves all available sectors for filtering.
+
+#### Request Headers
+- `Authorization: Bearer <SESSION_TOKEN>`
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Sectors retrieved successfully
+  - **Body:**
+    ```json
+    [
+      {
+        "mappingId": "string",
+        "name": "string"
+      }
+    ]
+    ```
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized"
+
+- **`500 INTERNAL SERVER ERROR`**
+  - **Description:** "Failed to fetch sectors"
+
+---
+
+### 10. Get Organisations
+
+**Endpoint:** `GET /api/organisations`
+
+Retrieves organisations within a specified geographic radius along with their capabilities.
+
+#### Request Headers
+- `Authorization: Bearer <SESSION_TOKEN>`
+
+#### Query Parameters
+- `latitude` (required): User's latitude coordinate (float)
+- `longitude` (required): User's longitude coordinate (float)
+- `radiusKm` (optional, default=20): Search radius in kilometers (positive number)
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Organisations retrieved successfully
+  - **Body:**
+    ```json
+    [
+      {
+        "id": "string",
+        "name": "string",
+        "billingStreet": "string",
+        "billingCity": "string",
+        "billingProvince": "string",
+        "billingPostalCode": "string",
+        "latitude": "number",
+        "longitude": "number",
+        "itemCapabilities": [
+          {
+            "capability": "string",
+            "capabilityType": "string",
+            "validationDate": "ISO 8601 date",
+            "item": {
+              "id": "string",
+              "detailedId": "string",
+              "name": "string",
+              "detailedName": "string"
+            },
+            "sector": {
+              "mappingId": "string",
+              "name": "string"
+            }
+          }
+        ]
+      }
+    ]
+    ```
+
+- **`400 BAD REQUEST`**
+  - **Description:** Missing required parameters or invalid values
+  - **Body:**
+    ```json
+    {
+      "error": "latitude and longitude are required"
+    }
+    ```
+    or
+    ```json
+    {
+      "error": "radiusKm must be a positive number"
+    }
+    ```
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized"
+
+- **`500 INTERNAL SERVER ERROR`**
+  - **Body:**
+    ```json
+    {
+      "error": "Internal server error"
+    }
+    ```
+
+**Capability Types:**
+- Assembler
+- Retailer
+- Manufacturer
+- Manufacturer (Parts)
+- Project Management
+- Service Provider
+- Wholesaler
+- Item Supplier
+- Designer
+- Supplier
+- Parts Supplier
+- Raw Materials Supplier
+
+---
+
+## Subscription Management
+
+### 11. Upgrade Subscription
+
+**Endpoint:** `POST /api/subscription/upgrade`
+
+Upgrades the user's subscription tier.
+
+#### Request Headers
+- `Authorization: Bearer <SESSION_TOKEN>`
+
+#### Request Body
+
+```json
+{
+  "newTier": 0 | 1 | 2 | 3
+}
+```
+
+- `newTier`: New subscription tier (0=Invalid, 1=Free, 2=Plus, 3=Premium)
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Subscription upgraded successfully
+  - **Body:**
+    ```json
+    {
+      "success": true,
+      "newTier": 0 | 1 | 2 | 3
+    }
+    ```
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized"
+
+- **`422 UNPROCESSABLE ENTITY`**
+  - **Description:** Invalid request body
+
+**Note:** This is currently a proof-of-concept without payment validation.
+
+---
+
+## Authentication Details
+
+**Session Tokens:**
+- Format: UUID v4
+- Expiration: 30 days from creation
+- Header format: `Authorization: Bearer <token>`
+- Automatic cleanup of expired tokens runs hourly
+
+**Password Security:**
+- Passwords are hashed using Bun's built-in password hashing
+- Challenge codes are 6-digit strings sent via email
+- Challenge codes are single-use (deleted after verification)
+
+---
+
+## Error Response Format
+
+Most endpoints return plain text error messages. The `/api/organisations` endpoint returns JSON error objects:
+
+```json
+{
+  "error": "Error message here"
+}
+```
