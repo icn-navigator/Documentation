@@ -5,7 +5,7 @@
 **Start Date:** 6th of October 2025
 **End Date:** 26th of October 2025
 **Duration:** 
-**Team:** See [[Roles and Responsibilities]]
+**Team:** See [[Roles and Responsibilities]]**l**
 
 ## Sprint Goal
 
