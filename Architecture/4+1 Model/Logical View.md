@@ -11,6 +11,12 @@ For more details see [[Database Overview]].
 
 ![[ICN Navigator DB Schema.pdf]]
 
+## User Flow Diagram
+
+Duplicate of [[User Flow]] but included here for completeness.
+
+![[app-setup-user-flow.pdf]]
+
 ## Domain Class Diagram
 
-Not particularly useful for our current needs - other priorities.
+Omitted - not a priority for us. 
