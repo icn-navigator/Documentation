@@ -22,7 +22,7 @@ For a **high-level understanding** of our system architecture see the diagram be
 
 For more details and justification of certain decisions see our architecture [[High Level Overview]]. 
 
-![[high-level-system-arch.svg]]
+![[new-high-lvl-sys-arch.png]]
 
 ### High-Level File Structure
 

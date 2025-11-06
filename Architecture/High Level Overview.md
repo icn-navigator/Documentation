@@ -1,7 +1,7 @@
 
 ## Architecture Diagram
 
-![[new-high-level-arch.pdf]]
+![[new-high-lvl-sys-arch.png]]
 
 ## Summary and Justification
 
