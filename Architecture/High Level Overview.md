@@ -25,6 +25,6 @@ See [[DR08 - Database]] for more information.
 
 ### Hosting Provider
 
-We are using *Render*'s hosting platform, as it offers a simple and friendly abstraction over AWS without removing too much flexibility regarding server architecture - providing the best of both worlds in simplicity, price, scalability, and flexibility.
+	We are using *Render*'s hosting platform, as it offers a simple and friendly abstraction over AWS without removing too much flexibility regarding server architecture - providing the best of both worlds in simplicity, price, scalability, and flexibility.
 
 See [[DR06 - Deployment]] for more information.

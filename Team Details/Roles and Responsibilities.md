@@ -1,12 +1,12 @@
 Our team roles are as follows:
 
-| Name    | Role                                    |
-| ------- | --------------------------------------- |
-| Oliver  | Product Owner, Team Member              |
-| Julian  | Scrum Master, Backend Lead, Team Member |
-| Matthew | Frontend Lead, Team Member              |
-| Alex    | Team Member                             |
-| Zoy     | Team Member                             |
+| Name    | Role                                           |
+| ------- | ---------------------------------------------- |
+| Oliver  | Product Owner, Team Member (Frontend, Backend) |
+| Julian  | Scrum Master, Backend Lead, Team Member        |
+| Matthew | Frontend Lead, Team Member                     |
+| Alex    | Team Member                                    |
+| Zoy     | Team Member                                    |
 
 Confirmed in [[W1 - Meeting 2]].
 

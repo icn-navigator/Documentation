@@ -2,9 +2,9 @@ This document provides an overview of the features implemented during the develo
 
 **Overall Progress:**
 - Total User Stories: 16
-- Fully Supported:  11
-- Partially Supported: 5
-- Unsupported: 2
+- **Fully Supported:**  11
+- **Partially Supported:** 5
+- **Unsupported:** 2
 
 ## User Story Completion
 
@@ -35,7 +35,7 @@ This document provides an overview of the features implemented during the develo
 
 **Focus:** Initial Prototype & Application Foundations
 
-**Completed (not exhaustive)**
+**Completed (not exhaustive):**
 - Finalised project requirements (see [[Breakdown of Reqs]])
 - Design process documentation (see [[Design Process]])
 - Research and discovery documentation (see [[Research and Discovery]])
