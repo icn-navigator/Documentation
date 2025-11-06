@@ -12,18 +12,13 @@ Our team used **Figma** for all frontend high fidelity design work. The design f
 > To view or modify the full project, we recommend [duplicating the file](https://help.figma.com/hc/en-us/articles/360038511533-Duplicate-or-copy-files) into your own workspace.  For ongoing or multi-team development, consider upgrading to a [Team plan](https://help.figma.com/hc/en-us/articles/360040328273-Figma-plans-and-features) to enable proper collaboration and file management.
 > 
 
-While detailed design documentation can be found in [[Design Process]], [[Low Fidelity]], and [[High Fidelity]], the following section provides a concise overview specifically aimed at helping future developers understand the design foundations and continue development smoothly.
+Detailed design documentation can be found in [[Design Process]], [[Low Fidelity]], and [[High Fidelity]]. 
 
 ## Development
 
 ### High Level Architecture
 
 For a **high-level understanding** of our system architecture see the diagram below. 
-
-* **Frontend:** We're using *React Native* with the *Expo Framework* (in *Typescript*).
-* **Backend:** We're using the *Bun* runtime and framework (with *Typescript*).
-* **Database** Our main database is *PostgreSQL*.
-* **Hosting:** We are using *Render*'s hosting platform. 
 
 For more details and justification of certain decisions see our architecture [[High Level Overview]]. 
 
@@ -44,7 +39,7 @@ ICN-Navigator/
 > [!INFO]- Shared types
 > The `shared-types` directory contains **Zod schemas and TypeScript definitions** used by both the frontend and backend.  
 >
-> Zod is a TypeScript-first validation library that we're using to enforce consistent data validation and type safety across the frontend and backend. See the [Zod documentation](https://zod.dev/) to learn more. 
+> Zod is a TypeScript-first validation library that we're using to enforce consistent data validation and type safety across the frontend and backend. See the [Zod documentation](https://zod.dev/) for examples and best practices.
 
 ### Frontend
 
@@ -75,10 +70,9 @@ frontend/
 
 #### Map Framework - MapBox
 
-We're using MapBox
+The ICN Navigator frontend uses **Mapbox** via the [`@rnmapbox/maps`](https://github.com/rnmapbox/maps) library to power the interactive map view.
 
-
-
+**Configuration:** The Mapbox access token is required to load files - see the main `README.md` for setup instructions
 
 #### Future Development
 
@@ -123,13 +117,24 @@ api/
 
 ### Database
 
-The database has the following schema. 
+The backend uses a [PostgreSQL](https://www.postgresql.org/) database to store information about organisations, capabilities, sections and user accounts. 
+
+An overview of the schema is shown below:
 
 ![[ICN Navigator DB Schema.pdf]]
 
+For detailed entity descriptions, relationships, and rationale, see [[Database Overview]].
+
+> [!INFO] Bun and SQL databases
+> We take advantage of the native bindings **Bun** provides for working with SQL databases through a unified Promise-based API that supports PostgreSQL, MySQL, and SQLite. (See [here](https://bun.sh/docs/runtime/sql))
 #### Database Access
 
 #TODO Provide comprehensive details on accessing the database, including necessary credentials and an overview of the data schema.
+
+#### Future Development
+
+* **Data expansion:** If the data becomes available, consider adding additional organisation attributes such as **diversity filters** or other classification fields.  See also [[tiered-features.pdf]] for further context on potential feature tiers.
+* **Migrations:** Introduce a structured migration process to safely manage schema changes over time.
 
 ## Hosting Service Access
 

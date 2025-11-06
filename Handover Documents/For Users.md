@@ -7,12 +7,14 @@ This application was developed as part of **COMP30022 – IT Project** by **Team
 ## Accessing the Application
 
 * **Web App:** #TODO Include link
-* **Mobile App:** #TODO instructions or link to instructions here
+* **Mobile App:** #TODO instructions or link to instructions here (maybe just improve the README's and then reference those. 
 
 ## Using the App
 
 #TODO Demo Video
 
-
 ## Known Limitations
 
+#TODO
+
+#TODO If anyone has any ideas of what else to include in this document go ahead. 

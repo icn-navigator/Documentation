@@ -1,7 +1,7 @@
 This document provides an overview of the features implemented during the development of the ICN Navigator, organised by implementation status and development sprint.
 
 **Overall Progress:**
-- Total User Stories: 16
+- **Total User Stories:** 16
 - **Fully Supported:**  11
 - **Partially Supported:** 5
 - **Unsupported:** 2
