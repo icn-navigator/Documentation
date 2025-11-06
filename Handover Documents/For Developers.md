@@ -1,4 +1,4 @@
-Welcome! 
+**Welcome!** 
 
 This document is intended for **future developers** who may continue work on the ICN Navigator project. It provides a concise technical overview of the system architecture, file structure, and design decisions made by **Team ZAMJO** during development.  Our goal is to help you quickly understand how the project is organised and how to build upon it effectively.
 ## Design
@@ -70,7 +70,7 @@ frontend/
 
 #### Map Framework - MapBox
 
-The ICN Navigator frontend uses **Mapbox** via the [`@rnmapbox/maps`](https://github.com/rnmapbox/maps) library to power the interactive map view.
+The ICN Navigator frontend uses **Mapbox** via the [`@rnmapbox/maps`](https://github.com/rnmapbox/maps) library to power the interactive map view. For more info and justification of this choice see [[DR07 - Map Framework]]. 
 
 **Configuration:** The Mapbox access token is required to load files - see the main `README.md` for setup instructions.
 
@@ -137,13 +137,17 @@ For detailed entity descriptions, relationships, and rationale, see [[Database O
 
 #### Future Development
 
-* **Data expansion:** If the data becomes available, consider adding additional organisation attributes such as **diversity filters** or other classification fields.  See also [[tiered-features.pdf]] for further context on potential feature tiers.
+* **Data expansion:** If the data becomes available, consider adding additional organisation attributes such as **diversity filters** or other classification fields.  See also [[tiered-features.pdf]] for further context here.
 * **Migrations:** Introduce a structured migration process to safely manage schema changes over time.
 
-## Hosting Service Access
+## Testing
 
-#TODO Include instructions and credentials for accessing the hosting service where the application is deployed.
+#TODO Brief discussion about testing and link testing documentation
 
 ## Deployment
 
 #TODO (i.e. how to deploy the source code, database and run the project on a new server, any necessary administrator/test customer login credentials, access to code repositories, databases and servers as well
+
+### Hosting Service Access
+
+#TODO Include instructions and credentials for accessing the hosting service where the application is deployed.
