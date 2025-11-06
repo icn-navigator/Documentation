@@ -8,7 +8,11 @@ Final submission is due **Friday 7th November at 23:59**.
 **Editable docx:** see `~resources/general/final-submission-checklist.pdf`.
 **Submission:** on LMS [here](https://canvas.lms.unimelb.edu.au/courses/211713/assignments/580076).
 
-NOTE: key component of this is the handover documents (see [[]])
+![[final-product-checklist.png]]
+
+
+**NOTE:** a key component of this is the handover documents (see handover [[Resources]])
+
 ### Marking Key
 
 Marking key from Canvas.
@@ -25,9 +29,15 @@ Worth **5%**, submitted on LMS [here](https://canvas.lms.unimelb.edu.au/courses/
 
 ## Personal Report
 
-Worth **20%**, submitted on LMS. All details we were provided below.
+Worth **20%**, submitted on LMS [here](https://canvas.lms.unimelb.edu.au/courses/211713/assignments/580070). All details we were provided below.
+
+![[personal-contribution-details.png]]
 
 **NOTE:** submission for this is **optional**, will get a mark out of 20 regardless.
 
-![[personal-contribution-details.png]]
+### Marking Key
+
+**PDF:** [[individual-contribution-rubric.pdf]]
+
+![[individual-contribution-rubric.png]]
 
