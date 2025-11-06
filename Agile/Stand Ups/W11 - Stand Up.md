@@ -6,16 +6,13 @@
 ### Zoy
 
 **Focus**
-What did you focus on?
+Web front end design
 
 **What's done?**
-What did you get done?
-
-**What's next?**
-What do you have planned to do next?
+Web front end design
 
 **Blockers?**
-Do you have any blockers?
+None
 
 ### Alex
 
