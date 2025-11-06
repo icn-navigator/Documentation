@@ -4,7 +4,7 @@
 
 ## Authentication & Account Management
 
-### 1. Start Signup
+### Start Signup
 
 **Endpoint:** `POST /api/auth/signup/start`
 
@@ -40,7 +40,7 @@ Initiates account creation by storing pending account details and sending a veri
 
 ---
 
-### 2. Verify Challenge Code
+### Verify Challenge Code
 
 **Endpoint:** `POST /api/auth/verify-challenge`
 
@@ -86,7 +86,40 @@ Verifies a challenge code (from signup or login) and creates a session.
 
 ---
 
-### 3. Start Login
+### Complete Onboarding
+
+**Endpoint:** `POST /api/auth/onboarding/complete`
+
+Completes the user onboarding process by storing user preferences and answers.
+
+#### Request Headers
+- `Authorization: Bearer <SESSION_TOKEN>`
+
+#### Request Body
+
+```json
+{
+  "answers": {
+    // Onboarding answer data structure
+  }
+}
+```
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** Onboarding completed successfully
+  - **Body:** `"Onboarding completed"`
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized" (Token missing, invalid, or expired)
+
+- **`422 UNPROCESSABLE ENTITY`**
+  - **Description:** "Invalid answers provided"
+
+---
+
+### Start Login
 
 **Endpoint:** `POST /api/auth/login/start`
 
@@ -123,7 +156,7 @@ Validates credentials and sends a verification code to the user's email.
 
 ---
 
-### 4. Validate Session
+### Validate Session
 
 **Endpoint:** `GET /api/auth/validate-session`
 
@@ -142,7 +175,7 @@ Checks if a session token is valid and not expired.
 
 ---
 
-### 5. Start Password Reset
+### Start Password Reset
 
 **Endpoint:** `POST /api/auth/password-reset/start`
 
@@ -171,7 +204,7 @@ Initiates password reset by sending a verification code via email.
 
 ---
 
-### 6. Complete Password Reset
+### Complete Password Reset
 
 **Endpoint:** `POST /api/auth/password-reset/complete`
 
@@ -205,7 +238,7 @@ Completes password reset by verifying code and updating password.
 
 ---
 
-### 7. Logout
+### Logout
 
 **Endpoint:** `POST /api/auth/logout` or `GET /api/auth/logout`
 
@@ -227,7 +260,7 @@ Terminates the user session.
 
 ## ICN Data
 
-### 8. Get Items
+### Get Items
 
 **Endpoint:** `GET /api/items`
 
@@ -260,7 +293,7 @@ Retrieves all available items for filtering/searching.
 
 ---
 
-### 9. Get Sectors
+### Get Sectors
 
 **Endpoint:** `GET /api/sectors`
 
@@ -291,7 +324,7 @@ Retrieves all available sectors for filtering.
 
 ---
 
-### 10. Get Organisations
+### Get Organisations
 
 **Endpoint:** `GET /api/organisations`
 
@@ -384,9 +417,71 @@ Retrieves organisations within a specified geographic radius along with their ca
 
 ---
 
+### Export Organisation
+
+**Endpoint:** `GET /api/organisation/:id/export`
+
+Generates and downloads a PDF summary of an organisation's details and capabilities.
+
+#### Request Headers
+- `Authorization: Bearer <SESSION_TOKEN>`
+
+#### URL Parameters
+- `id` (required): Organisation ID (string)
+
+#### Responses
+
+- **`200 OK`**
+  - **Description:** PDF generated successfully
+  - **Content-Type:** `application/pdf`
+  - **Content-Disposition:** `attachment; filename="organisation-{id}.pdf"`
+  - **Body:** Binary PDF data
+
+- **`400 BAD REQUEST`**
+  - **Description:** Organisation ID is required
+  - **Body:**
+    ```json
+    {
+      "error": "Organisation ID is required"
+    }
+    ```
+
+- **`401 UNAUTHORIZED`**
+  - **Description:** "Unauthorized" (Token missing, invalid, or expired)
+
+- **`404 NOT FOUND`**
+  - **Description:** Organisation not found
+  - **Body:**
+    ```json
+    {
+      "error": "Organisation not found"
+    }
+    ```
+
+- **`500 INTERNAL SERVER ERROR`**
+  - **Description:** PDF generation or server error
+  - **Body:**
+    ```json
+    {
+      "error": "Internal server error"
+    }
+    ```
+
+**PDF Contents:**
+- Organisation name and ID
+- Full billing address
+- List of all capabilities with:
+  - Capability name and type
+  - Associated item details
+  - Associated sector
+  - Validation date
+- Generation timestamp
+
+---
+
 ## Subscription Management
 
-### 11. Upgrade Subscription
+### Upgrade Subscription
 
 **Endpoint:** `POST /api/subscription/upgrade`
 

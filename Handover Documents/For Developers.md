@@ -72,7 +72,7 @@ frontend/
 
 The ICN Navigator frontend uses **Mapbox** via the [`@rnmapbox/maps`](https://github.com/rnmapbox/maps) library to power the interactive map view.
 
-**Configuration:** The Mapbox access token is required to load files - see the main `README.md` for setup instructions
+**Configuration:** The Mapbox access token is required to load files - see the main `README.md` for setup instructions.
 
 #### Future Development
 
@@ -97,20 +97,24 @@ api/
 │   ├── items/                 # Items/resources management
 │   ├── sectors/               # Industry sectors endpoints
 │   ├── subscription/          # Premium subscription logic
-│   ├── notifications/         # Push notifications
+│   ├── notifications/         # Notifcations (like email verify)
 │   ├── index.ts               # API server entry point
-│   ├── utils.ts               # Shared utility functions
-│   └── test-setup.ts          # Test configuration and helpers
+│   └── utils.ts               # Shared utility functions
 │
 ├── database/                  # Database configuration
 │   └── schema.sql             # PostgreSQL schema definition
 │
 ├── scripts/                   # Utility scripts
-├── package.json               # Backend dependencies (Bun, Hono)
+├── package.json               # Backend dependencies (Bun)
 ├── tsconfig.json              # TypeScript configuration
 └── README.md                  # API documentation
 ```
 
+#### API Documentation
+
+It provides details on all available **endpoints**, including request/response formats, expected parameters, and error codes.  
+
+The documentation was written to help developers integrate with the backend and understand how data flows between the frontend and database.
 #### Future Development 
 
 #TODO
