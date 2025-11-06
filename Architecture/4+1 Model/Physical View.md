@@ -5,7 +5,5 @@ From [[L4-design.pdf]] the **Physical** view of the **4+1 Architecture Model:**
 
 ### Deployment Pipeline
 
-#TODO We should add the deployment pipeline diagram here when it's complete.
-
-
+See [[Deployment]].
 

@@ -24,6 +24,7 @@ For more details and justification of certain decisions see our architecture [[H
 
 ![[new-high-lvl-sys-arch.png]]
 
+**Note:** This information is slightly outdated, as our hosting provider has since been changed to **Render**.  Hosting is covered in more detail in the [[#Deployment]] section. 
 ### High-Level File Structure
 
 The project uses a **single monorepo** containing both the frontend and backend. This setup simplifies dependency management and enables shared types between the two environments.
