@@ -13,6 +13,7 @@ This diagram provides a high level overview of the system architecture we plan t
 
 ![[high-level-system-arch.svg]]
 
+Note:** This information is slightly outdated, as our hosting provider has since been changed to **Render**.  Hosting is covered in more detail in the [[#Deployment]] section.
 ### API Descriptions
 
 See [[API Documentation]].
