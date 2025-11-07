@@ -13,6 +13,11 @@ flowchart TD
 	3 ---> 4[Updated server replaces previous deployment]
 ```
 
+>[!Info]
+> Render's official documentation on automated deployment can be found at: https://render.com/docs/deploys
+
+
+
 #### Handling Production Bugs
 
 Typically the most likely time to encounter bugs is during the rollout of a new deployment. We can mitigate the likelihood of this, as well as the impact of it should it still happen through 2 key properties of our development and deployment plans:
