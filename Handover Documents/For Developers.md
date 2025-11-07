@@ -158,7 +158,8 @@ After processing the data, the file `commands.txt` contains *4 psql commands* th
 
 ## Testing
 
-#TODO Brief discussion about testing and link testing documentation
+We have an automated testing suite configured for the backend, which can be run with the command `bun test` from the `api/` directory
+
 
 ## Deployment
 
