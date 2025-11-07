@@ -62,10 +62,6 @@ Since we're using Bun runtime (see: [[DR05 - Backend Language]]), Bun's built in
 - **Integration Tests**: Test the REST API end-to-end with mocked or test databases.  
 - **Workflow Integration**:  Tests can run as part of CI/CD (via GitHub Actions) on pull requests to catch regressions early.  
 
-### Database Testing
-
-#TODO Look into Postman?
-
 ### Useful Resources:
 
 * https://www.geeksforgeeks.org/software-testing/what-is-backend-testing/

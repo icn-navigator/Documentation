@@ -134,7 +134,22 @@ For detailed entity descriptions, relationships, and rationale, see [[Database O
 > We take advantage of the native bindings **Bun** provides for working with SQL databases through a unified Promise-based API that supports PostgreSQL, MySQL, and SQLite. (See [here](https://bun.sh/docs/runtime/sql))
 #### Database Access
 
-#TODO Provide comprehensive details on accessing the database, including necessary credentials and an overview of the data schema.
+Currently we're using Render's built-in Postgres instance hosting for convenience during testing, however our system is completely provider-agnostic for Postgres instances.
+
+At the top level of the repo is a directory `/icn_data_processing`, which contains the sample data provided as well as *2 Python scripts* for processing it.
+
+>[!Warning] Important Note
+> Running the main processing script (`icn_data_analysis.py`) can take up to *6 hours* due to the limited throughput of geocoding the organisation addresses.
+
+Much of this data should already be processed however, so you can run the script `final.py` to produce the output `.csv` files which can be directly imported into a Postgres database.
+
+>[!Info] Note
+> `final.py` currently assumes the user is on a MacOS system by default as it saves the output files to the shared directory `/Users/shared/tmp`, which enable a Postgres client like PgAdmin to access the data.
+> 
+> This can be changed in the script depending on what operating system you have access to.
+
+
+After processing the data, the file `commands.txt` contains *4 psql commands* that can be run 1-by-1 to insert the data into the connected instance.
 
 #### Future Development
 
