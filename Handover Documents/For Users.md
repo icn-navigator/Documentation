@@ -6,7 +6,7 @@ This application was developed as part of **COMP30022 – IT Project** by **Team
 
 ## Accessing the Application
 
-* **Web App:** #TODO Include link
+* **Web App:** https://icn-navigator.onrender.com
 * **Mobile App:** #TODO instructions or link to instructions here (maybe just improve the README's and then reference those. 
 
 ## Using the App
