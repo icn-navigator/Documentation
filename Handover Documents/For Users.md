@@ -1,6 +1,7 @@
 **Welcome!**
 
 This document is intended for **clients, stakeholders, and future users** of the ICN Navigator prototype.  It provides an overview of the platform’s purpose, how to access it, and what to expect when using it.  
+
 ## Overview
 
 **ICN Navigator** is a prototype platform for browsing organisations and their capabilities across Victoria. It provides a map-based interface and filtering tools to explore organisations by sector, region, capabilities and more. 
@@ -27,11 +28,6 @@ The app can still be run locally for testing and demonstration purposes using a 
 
 ## Using the App
 
-#TODO Demo video?
+See our demo / product over view here: 
 
-## Known Limitations
-
-
-#TODO
-
-#TODO If anyone has any ideas of what else to include in this document go ahead. 
+https://www.youtube.com/watch?v=wOy_nvR4sTY
