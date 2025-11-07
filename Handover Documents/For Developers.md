@@ -147,8 +147,45 @@ For detailed entity descriptions, relationships, and rationale, see [[Database O
 
 ## Deployment
 
-#TODO (i.e. how to deploy the source code, database and run the project on a new server, any necessary administrator/test customer login credentials, access to code repositories, databases and servers as well
+As our deployment systems are entirely built around GitHub actions (and hosting platform-specific actions triggered by GitHub commits to `main`), configuring deployment primarily involves getting administrative access to the ICN Navigator GitHub organisation.
 
-### Hosting Service Access
+Once access to the organisation (and ICN-Navigator repo) are obtained, the rest of the deployment can be configured on the hosting provider *Render*.
 
-#TODO Include instructions and credentials for accessing the hosting service where the application is deployed.
+### Connecting Repo to Render
+
+While developing, we chose to log into Render with GitHub, as this provides an immediate easy way to access your repositories, and we suggest doing this too.
+
+After logging in, you can create a new *web service* based on a repository, for which you should select the `ICN-Navigator` repo.
+
+>[!Info]
+>Here's Render's official documentation on web services, which contains a setup guide: https://render.com/docs/web-services
+
+
+### Configuring the Render web service
+
+There are a few important configuration changes to make before you can launch the instance.
+
+#### Environment Variables
+
+Environment variables can be configured in Render's environment tab in the dashboard.
+
+
+A total of 5 environment variables need to be set for the instance to deploy successfully.
+- `BUN_VERSION`=1.2.22
+- `PORT`=8000
+- `EXPO_PUBLIC_MAPBOX_TOKEN`=pk.eyJ1IjoibWF0dGhld3l3IiwiYSI6ImNtZm90dHpqbzBhYzIybnB4bjk4N3VwdXcifQ.1UxsyfBs0eMcPSjEF4lBcA
+- `RNMAPBOX_MAPS_DOWNLOAD_TOKEN` *this is private and can be obtained for free by creating a MapBox account*
+	- See: https://account.mapbox.com/auth/signup/
+- `DATABASE_URL` *this is private and depends on your postgres instance*
+
+
+
+#### Build and Start Commands
+
+The commands also need to be configured in the settings tab.
+- Build command = `source build.sh`
+- Start command = `source start.sh`
+
+
+The instance should now be ready to deploy.
+
