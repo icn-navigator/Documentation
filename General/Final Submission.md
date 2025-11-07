@@ -27,6 +27,9 @@ Is due a bit later, **Wednesday, 12th November at 23:59**.
 
 Worth **5%**, submitted on LMS [here](https://canvas.lms.unimelb.edu.au/courses/211713/assignments/580068). All details we were provided below:
 
+![[ethics-report-details.png]]
+
+
 ## Personal Report
 
 Worth **20%**, submitted on LMS [here](https://canvas.lms.unimelb.edu.au/courses/211713/assignments/580070). All details we were provided below.
@@ -34,9 +37,6 @@ Worth **20%**, submitted on LMS [here](https://canvas.lms.unimelb.edu.au/courses
 ![[personal-contribution-details.png]]
 
 **NOTE:** submission for this is **optional**, will get a mark out of 20 regardless.
-
-
-![[ethics-report-details.png]]
 
 ### Marking Key
 
