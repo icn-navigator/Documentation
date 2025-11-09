@@ -116,9 +116,6 @@ api/
 It provides details on all available **endpoints**, including request/response formats, expected parameters, and error codes.  
 
 The documentation was written to help developers integrate with the backend and understand how data flows between the frontend and database.
-#### Future Development 
-
-#TODO
 
 ### Database
 
