@@ -28,6 +28,6 @@ The app can still be run locally for testing and demonstration purposes using a 
 
 ## Using the App
 
-**See:** our demo / product over video here:
+See our demo video here:
 
 https://www.youtube.com/watch?v=wOy_nvR4sTY
