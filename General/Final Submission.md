@@ -11,7 +11,7 @@ Final submission is due **Friday 7th November at 23:59**.
 ![[final-product-checklist.png]]
 
 
-**NOTE:** a key component of this is the handover documents (see handover [[Resources]])
+**NOTE:** a key component of this is the handover documents (see handover [[resources]])
 
 ### Marking Key
 
