@@ -28,7 +28,7 @@ Although not many direct ethical issues arose during this project, there are sti
 
 ### Data Representation and Fairness
 
-One of the key ethical concerns that arose in our project was ensuring fairness in how organisations are represented. This was an issue also raised directly by our client from a [Q&A response](common-q&a.pdf#page=2&selection=4,0,14,62|common-q&a, page 2). When asked whether the platform should display company ratings or trending pages, the client mentioned that such features would make the app resemble platforms like _Hi-Pages_ and would conflict with the goal of providing fair, neutral information.
+One of the key ethical concerns that arose in our project was ensuring fairness in how organisations are represented. This was an issue also raised directly by our client from a [Q&A response]([[common-q&a.pdf]]). When asked whether the platform should display company ratings or trending pages, the client mentioned that such features would make the app resemble platforms like _Hi-Pages_ and would conflict with the goal of providing fair, neutral information.
 
 Aligned with this ethos, we deliberately avoided ranking or popularity-based features and instead focussed our design around tag-based filtering and categorisation. This approach aims to reduce bias where possible while not reducing usability. In both the design of our UI and underlying algorithms (e.g. search/filtering) we aimed to give equal visibility to small and medium enterprises, emerging sectors, and regional industries, promoting fair competition and transparent access to information.
 

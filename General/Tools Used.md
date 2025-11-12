@@ -7,4 +7,4 @@ This page collates all key links to the resources we used. They are also linked 
 
 **Code Repository:** [GitHub Organisation](https://github.com/orgs/icn-navigator/repositories) - Contact Oliver Starkey (oliver.starkey@student.unimelb.edu.au) for access.
 
-**UI Design:** Figma - Contact Alex Zhang (arzhang@student.unimelb) for access.
+**UI Design:** Figma - Contact Oliver Starkey (oliver.starkey@student.unimelb.edu.au) for access.
